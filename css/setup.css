@@ -1,0 +1,26 @@
+.nav_pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body p a {
+  text-transform: uppercase;
+}
+
+.ally {
+  display: none;
+  padding: 0;
+}
+
+.page_container {
+
+}
