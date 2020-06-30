@@ -15,25 +15,25 @@
         Contact form
       </h2>
     </header>
-    <form action="/contact-form" method="POST" class="contact-form">
-      <fieldset class="contact-field" id="fieldset-1">
-        <label class="contact-label" for="fullname" id="fullname-label">Fullname</label><br>
-        <input type="text" id="fullname">
+    <form class="contact-form" action="/contact-form" method="POST" id="contact_form">
+      <fieldset class="contact-field" id="fieldset_fullname">
+        <label class="contact-label" for="fullname" id="fullname_label">Fullname</label><br>
+        <input type="text" class="user_input"id="fullname">
       </fieldset>
-      <fieldset class="contact-field" id="fieldset-2">
-        <label class="contact-label" for="subject" id="subject-label">Subject</label><br>
-        <input type="text" id="subject">
+      <fieldset class="contact-field" id="fieldset_subject">
+        <label class="contact-label" for="subject" id="subject_label">Subject</label><br>
+        <input type="text" class="user_input" id="subject">
       </fieldset>
-      <fieldset class="contact-field" id="fieldset-3">
-        <label class="contact-label" for="email" id="email-label">Email</label><br>
-        <input type="email" id="email">
+      <fieldset class="contact-field" id="fieldset_email">
+        <label class="contact-label" for="email" id="email_label">Email</label><br>
+        <input type="email" class="user_input" id="email">
       </fieldset>
-      <fieldset class="contact-field" id="fieldset-4">
-        <label class="contact-label" for="phone-number" id="phone-number-label">Phone</label><br>
-        <input type="tel" id="phone-number">
+      <fieldset class="contact-field" id="fieldset_phone-number">
+        <label class="contact-label" for="phone-number" id="phone_number-label">Phone</label><br>
+        <input type="tel" class="user_input" id="phone-number">
       </fieldset>
-      <fieldset class="contact-field" id="fieldset-5">
-        <label class="contact-label" for="message" id="message-label">Message</label><br>
+      <fieldset class="contact-field" id="fieldset_message">
+        <label class="contact-label" for="message" id="message_label">Message</label><br>
         <textarea id="message" cols="25" rows="5"></textarea>
       </fieldset>
     </form>
