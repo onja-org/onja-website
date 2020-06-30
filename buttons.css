@@ -1,6 +1,9 @@
 :root {
   --line_height: 1.25;
   --based-font-size: 1.125rem;
+  --based-unit: calc(var(--line_height) * var(--based-font-size) - var(--based-font-size) / 2);
+  --padding-block: calc(1rem - var(--based-unit));
+
 }
 
 .button {
