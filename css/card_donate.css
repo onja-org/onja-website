@@ -1,0 +1,95 @@
+:root {
+
+}
+article {
+  font-family: 'MaisonNeue', Arial, Helvetica, sans-serif;
+  border: #cbd1da solid 2px;
+}
+
+.card-donate__heading {
+  font-size: 16px;
+  line-height: 30px;
+  color: #213140;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.card-donate__info {
+  font-size: 14px;
+  line-height: 22px;
+  color: #7d7d7d;
+  font-weight: 400;
+}
+
+
+img {
+  width: 100%;
+  height: 100%;
+}
+.card-donate__container,
+.card-donate__progress-bar,
+dl {
+  display: flex;
+}
+.card-donate__container {
+  flex-direction: column-reverse
+}
+
+.card-donate__progress-bar {
+  flex-direction: column;
+}
+
+.progress_bar {
+  color: #0083c3;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+#progress_bar {
+  width: 100%;
+  height: 40px;
+}
+
+dl {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.amount {
+  margin: 0;
+}
+
+dt,
+.to-go_amount {
+  color: #2e2e2e;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.received_amount {
+  color: #0083c3;
+  font-size: 14px;
+}
+
+.card-donate__footer {
+  border-top: 2px solid #cbd1da;
+}
+
+.card-donate__link {
+  display: block;
+  font-size: 14px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #0083c3;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  padding-block-start: 1rem;
+}
+
+
+
