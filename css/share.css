@@ -1,0 +1,53 @@
+.share-text,
+.icon {
+  color: #C8D1DA;
+}
+
+.share-text {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+li a {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+}
+
+.icon {
+background-repeat: no-repeat;
+background-size: 1.5rem;
+background-position: center;
+text-decoration: none;
+}
+
+
+.share-facebook {
+  background-image: url(../img/facebook.svg);
+}
+
+.share-twitter {
+  background-image: url(../img/twitter.svg);
+}
+
+.share-email {
+  background-image: url(../img/email.svg);
+}
+
+span {
+  visibility: hidden;
+}
+
+ nav li {
+list-style: none;
+padding: 0 0.5rem;
+margin-top: -2px;
+}
+
+footer {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+}
