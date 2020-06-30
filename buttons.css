@@ -1,18 +1,23 @@
+:root {
+  --line_height: 1.25;
+  --based-font-size: 1.125rem;
+}
+
 .button {
   border: 1px solid;
-  border-radius: 24px;
+  border-radius: 1.5rem;
   text-decoration: none;
   text-transform: uppercase;
   padding: 1rem 3rem;
   font-family: inherit;
-  font-size: 1.125rem;
-  line-height: 1.25;
+  font-size: var(--based-font-size);
+  line-height: var(--line_height);
   text-align: center;
 }
 
 .button__primary {
   background-color: #00B2D8;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .button__primary--submit {
@@ -20,20 +25,20 @@
 }
 
 .button__secondary {
-  background-color: #FFF;
+  background-color: #fff;
   color: #0083C3;
 }
 
 .button__tertiary {
-  color: #FFF;
-  border: 1px solid #FFFFFF;
+  color: #fff;
+  border: 1px solid #fff;
   background-color: inherit;
 }
 
 
 .button__complete {
   background-color: #7ED321;
-  color: #FFF;
+  color: #fff;
   padding: 1rem 5rem;
 }
 
