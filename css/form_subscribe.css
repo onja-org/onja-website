@@ -1,0 +1,35 @@
+.form-subscribe {
+  color: #FFFFFF;
+  background-color: #0083C3;
+  line-height: 36px;
+}
+
+.form-title {
+  font-weight: 300;
+}
+
+.user-email {
+  border-block-end: 1px solid #FFFFFF;
+}
+
+.user-email ~ input:focus-within {
+
+}
+
+.user-input {
+  border: none;
+  background-color: transparent;
+  color: #FFFFFF;
+}
+
+@media (min-width: 700px) {
+  .form-subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFFFFF;
+    background-color: #0083C3;
+    line-height: 36px;
+    font-size: 22px;
+  }
+}
