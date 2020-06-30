@@ -9,7 +9,7 @@ textarea {
   width: 100%;
 }
 
-@media (min-width: 647px) {
+@media (min-width: 480px) {
     .contact-form {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
