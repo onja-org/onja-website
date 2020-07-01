@@ -30,9 +30,11 @@
 .nav_pagination_clicked {
   background-color: #0083C3;
 }
-body nav:first-of-type [rel="prev"] {
+.nav_pagination_disabled {
   cursor: not-allowed;
   pointer-events: none;
+  opacity: 0.25;
+  background-color: gray;
 }
 .nav_pagination_second__clicked {
   background-color: #0083C3;
