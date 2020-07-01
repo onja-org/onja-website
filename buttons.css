@@ -1,19 +1,20 @@
 .button {
+
   --button-line-height: 1.25;
   --button-based-font-size: 1.125rem;
   --button-base-unit: 1rem;
   --button-content-height: calc(var(--line_height) * var(--based-font-size));
-  --button-line-height-gap: calc( var(--button-line-height-gap) - var((--based-font-size) / 2));
+  --button-line-height-gap: calc( var(--button-content-height) - var((--based-font-size) / 2));
   --button-padding-block: calc(var(--button-base-unit) - var(--button-line-height-gap));
 
   border: 1px solid;
   border-radius: 1.5rem;
   text-decoration: none;
   text-transform: uppercase;
-  padding: var(--button-base-unit) 3rem;
+  padding: 1rem 3rem;
   font-family: inherit;
-  font-size: var(--button-based-font-size);
-  line-height: var(--button-line-height);
+  font-size: var(--based-font-size);
+  line-height: var(--line_height);
   text-align: center;
 }
 
@@ -41,9 +42,11 @@
 .button__complete {
   background-color: #7ED321;
   color: #fff;
-  padding: var(--button-base-unit) 5rem;
+  padding: 1rem 5rem;
 }
 
 main {
   background-color: #000;
 }
+
+
