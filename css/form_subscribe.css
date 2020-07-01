@@ -6,28 +6,31 @@
   line-height: 36px;
 }
 
-fieldset {
-
-}
 .form-title {
   font-weight: 300;
 }
 
 .user-email {
   border-block-end: 1px solid #FFFFFF;
-}
-
-.user-input:focus-within {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
 }
 
-.user-input {
+
+.form-subscribe:focus-within label {
+  position: absolute;
+  top: 0;
+  left: 50%;
   border: none;
+}
+
+.user-input {
   background-color: transparent;
   color: #FFFFFF;
+  border: none;
 }
+
 
 @media (min-width: 700px) {
   .form-subscribe {
