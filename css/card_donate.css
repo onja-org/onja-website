@@ -1,6 +1,3 @@
-:root {
-
-}
 article {
   font-family: 'MaisonNeue', Arial, Helvetica, sans-serif;
   border: #cbd1da solid 2px;
@@ -15,8 +12,15 @@ article {
   font-weight: 700;
 }
 
-.card-donate__info {
+.card-donate__info,
+.progress_bar-label,
+.to-go_amount,
+.received_amount,
+.card-donate__link {
   font-size: 14px;
+}
+
+.card-donate__info {
   line-height: 22px;
   color: #7d7d7d;
   font-weight: 400;
@@ -42,17 +46,29 @@ dl {
 .progress_bar-label {
   color: #0083c3;
   text-transform: uppercase;
-  font-size: 14px;
   line-height: 30px;
   font-weight: 700;
-
+  padding-block-start: 0.5rem;
+  padding-block-end: 0.5rem;
 }
 
-#progress_bar[value] {
+#progress_bar {
   width: 100%;
-  height: 40px;
-  flex-direction: row;
-  justify-content: space-between;
+  height: 20px;
+}
+
+progress {
+  -webkit-appearance: none;
+}
+
+::-webkit-progress-bar {
+  background-color:whitesmoke;
+  border-radius: 9px;
+}
+
+::-webkit-progress-value {
+  background-color: #0083c3;
+  border-radius: 9px;
 }
 
 .amount {
@@ -64,13 +80,11 @@ dt,
   color: #2e2e2e;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 14px;
   line-height: 25px;
 }
 
 .received_amount {
   color: #0083c3;
-  font-size: 14px;
 }
 
 .card-donate__footer {
@@ -79,7 +93,6 @@ dt,
 
 .card-donate__link {
   display: block;
-  font-size: 14px;
   line-height: 12px;
   text-transform: uppercase;
   color: #0083c3;
