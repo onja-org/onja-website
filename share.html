@@ -10,27 +10,27 @@
 
 <body>
   <section class="contact-section">
-    <header>
-      <h2>
+    <header class="contact-header">
+      <h2 class="contact-heading">
         Contact form
       </h2>
     </header>
     <form class="contact-form" action="/contact-form" method="POST" id="contact_form">
       <fieldset class="contact-field" id="fieldset_fullname">
         <label class="contact-label" for="fullname" id="fullname_label">Fullname</label><br>
-        <input type="text" class="user_input"id="fullname">
+        <input type="text" class="user_input"id="fullname" required>
       </fieldset>
       <fieldset class="contact-field" id="fieldset_subject">
         <label class="contact-label" for="subject" id="subject_label">Subject</label><br>
-        <input type="text" class="user_input" id="subject">
+        <input type="text" class="user_input" id="subject" required>
       </fieldset>
       <fieldset class="contact-field" id="fieldset_email">
         <label class="contact-label" for="email" id="email_label">Email</label><br>
-        <input type="email" class="user_input" id="email">
+        <input type="email" class="user_input" id="email" name="emails" required>
       </fieldset>
       <fieldset class="contact-field" id="fieldset_phone-number">
         <label class="contact-label" for="phone-number" id="phone_number-label">Phone</label><br>
-        <input type="tel" class="user_input" id="phone-number">
+        <input type="tel" class="user_input" id="phone-number" name="phone" required>
       </fieldset>
       <fieldset class="contact-field" id="fieldset_message">
         <label class="contact-label" for="message" id="message_label">Message</label><br>
@@ -38,7 +38,6 @@
       </fieldset>
     </form>
   </section>
-
 </body>
 
 </html>
