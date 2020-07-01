@@ -4,11 +4,11 @@
   justify-content: center;
 }
 
-nav ul li {
+.nav_pagination_list {
   list-style: none;
 }
 
-nav ul li a {
+.nav_pagination_list a {
   list-style: none;
   padding-inline-start: 1rem;
   padding-inline-end: 1rem;
@@ -27,14 +27,25 @@ nav ul li a {
   color: darkgray;
   font-size: 22px;
 }
+.nav_pagination_clicked {
+  background-color: #0083C3;
+}
+body nav:first-of-type [rel="prev"] {
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.nav_pagination_second__clicked {
+  background-color: #0083C3;
+}
 
-body a {
+
+.nav_pagination__anchor {
   text-decoration: none;
   line-height: 40px;
   display: block;
 }
 
-body p a {
+.nav_pagination_buttons a {
   padding-block-start: 1rem;
   padding-block-end: 1rem;
   padding-inline-start: 2rem;
@@ -53,7 +64,7 @@ body p a {
   display: none;
 }
 
-.page_container {
+.nav_pagination__container {
   padding: 0;
   display: flex;
   flex-direction: row;

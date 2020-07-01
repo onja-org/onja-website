@@ -10,16 +10,29 @@
 
 <body>
   <nav class="nav_pagination">
-    <p>
-      <a rel="prev" href="/back">Back</a>
+    <p class="nav_pagination_buttons">
+      <a rel="prev" class="nav_pagination__anchor" href="/back">Back</a>
     </p>
-    <ul class="page_container">
-      <li><a href="/first-page"><span class="ally">First page</span>1</a></li>
-      <li><a href="/second-page"><span class="ally">Second page</span>2</a></li>
-      <li><a href="/third-page"><span class="ally">Third page</span>3</a></li>
+    <ul class="nav_pagination__container">
+      <li class="nav_pagination_list"><a class="nav_pagination__anchor nav_pagination_clicked" href="/first-page"><span class="ally">First page</span>1</a></li>
+      <li class="nav_pagination_list"><a class="nav_pagination__anchor" href="/second-page"><span class="ally">Second page</span>2</a></li>
+      <li class="nav_pagination_list"><a class="nav_pagination__anchor" href="/third-page"><span class="ally">Third page</span>3</a></li>
     </ul>
-    <p>
-      <a rel="next" href="/next">Next</a>
+    <p class="nav_pagination_buttons">
+      <a rel="next" class="nav_pagination__anchor" href="/next">Next</a>
+    </p>
+  </nav>
+  <nav class="nav_pagination">
+    <p class="nav_pagination_buttons">
+      <a rel="prev" class="nav_pagination__anchor" href="/back">Back</a>
+    </p>
+    <ul class="nav_pagination__container">
+      <li class="nav_pagination_list"><a class="nav_pagination__anchor" href="/first-page"><span class="ally">First page</span>1</a></li>
+      <li class="nav_pagination_list"><a class="nav_pagination__anchor nav_pagination_second__clicked" href="/second-page"><span class="ally">Second page</span>2</a></li>
+      <li class="nav_pagination_list"><a class="nav_pagination__anchor" href="/third-page"><span class="ally">Third page</span>3</a></li>
+    </ul>
+    <p class="nav_pagination_buttons">
+      <a rel="next" class="nav_pagination__anchor" href="/next">Next</a>
     </p>
   </nav>
 </body>
