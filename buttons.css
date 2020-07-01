@@ -1,5 +1,4 @@
 .button {
-
   --button-line-height: 1.25;
   --button-based-font-size: 1.125rem;
   --button-base-unit: 1rem;
@@ -16,37 +15,43 @@
   font-size: var(--based-font-size);
   line-height: var(--line_height);
   text-align: center;
+  display: inline-block;
+  vertical-align: middle;
 }
-
+/* This is for the style for all the blue buttons */
 .button__primary {
   background-color: #00B2D8;
   color: #fff;
 }
 
+/* This is for the style for the send button only */
 .button__primary--submit {
   padding: var(--button-base-unit) 5rem;
 }
 
+/* This is for all white buttons */
 .button__secondary {
   background-color: #fff;
   color: #0083C3;
 }
 
+/* This is for all ghost buttons */
 .button__tertiary {
   color: #fff;
   border: 1px solid #fff;
   background-color: inherit;
 }
 
-
+/* This is a style for the most important button among all, the green one */
 .button__complete {
   background-color: #7ED321;
   color: #fff;
   padding: 1rem 5rem;
 }
 
-main {
-  background-color: #000;
+/* This is a style for the button which contains the wrapped text */
+.button__test {
+  background-color: rgb(255, 68, 0);
+  color: #fff;
+  padding: 1rem 5rem;
 }
-
-
