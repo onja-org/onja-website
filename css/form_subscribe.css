@@ -1,9 +1,14 @@
+
 .form-subscribe {
+  position: relative;
   color: #FFFFFF;
   background-color: #0083C3;
   line-height: 36px;
 }
 
+fieldset {
+
+}
 .form-title {
   font-weight: 300;
 }
@@ -12,8 +17,10 @@
   border-block-end: 1px solid #FFFFFF;
 }
 
-.user-email ~ input:focus-within {
-
+.user-input:focus-within {
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 .user-input {
@@ -26,7 +33,7 @@
   .form-subscribe {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     color: #FFFFFF;
     background-color: #0083C3;
     line-height: 36px;
