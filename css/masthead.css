@@ -1,9 +1,9 @@
+/*This is the parent of this code div*/
 body > main > .masthead {
-  /*  */
    position: relative;
 }
 
-
+/*header to hold the property needed for all contents*/
 body > main > .masthead > header {
   font-style: normal;
   text-align: center;
@@ -16,6 +16,7 @@ body > main > .masthead > header {
   padding-inline-end: 4rem;
 }
 
+/*This holds the header h2 and its property*/
 .masthead__heading {
   font-family: Maison Neue Extended TRIAL;
   font-weight: 500;
@@ -24,6 +25,7 @@ body > main > .masthead > header {
   color: #FFFFFF;
 }
 
+/*we specified the paragraph and its propertis*/
 p {
   font-family: Maison Neue Mono Trial;
   font-weight: normal;
@@ -33,6 +35,7 @@ p {
   color: #FFFFFF;
 }
 
+/*we put position absolite here in order to make the image to set behind the headings*/
 picture.masthead__image{
   position: absolute;
   top: 0;
@@ -41,6 +44,8 @@ picture.masthead__image{
   bottom: 0;
   z-index: -1;
 }
+
+/*we specified the img element to cover the whole screen*/
 img {
   width: 100%;
   height: 100%;
