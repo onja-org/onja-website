@@ -6,6 +6,10 @@
 
 nav ul li {
   list-style: none;
+}
+
+nav ul li a {
+  list-style: none;
   padding-inline-start: 1rem;
   padding-inline-end: 1rem;
   padding-block-start: 1rem;
@@ -19,14 +23,18 @@ nav ul li {
   justify-content: center;
   width: 40px;
   height: 40px;
+  font-weight: bold;
+  color: darkgray;
+  font-size: 22px;
 }
 
 body a {
   text-decoration: none;
   line-height: 40px;
+  display: block;
 }
 
-body p {
+body p a {
   padding-block-start: 1rem;
   padding-block-end: 1rem;
   padding-inline-start: 2rem;
@@ -36,6 +44,9 @@ body p {
   width: 90px;
   height: 40px;
   text-align: center;
+  font-weight: bold;
+  color: blue;
+  font-size: 22px;
 }
 
 .ally {
