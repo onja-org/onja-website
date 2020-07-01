@@ -15,6 +15,7 @@
   position: absolute;
   top: 30%;
   left: 50%;
+  transition: top .2s ease-in;
 }
 
 
@@ -23,6 +24,7 @@
   top: 0;
   left: 50%;
   border: none;
+  transition: top .2s ease-in;
 }
 
 .user-input {
