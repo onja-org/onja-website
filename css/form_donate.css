@@ -5,19 +5,25 @@
   width: 500px;
   height: 67px;
   margin-block-start: 4rem;
-}
-label[for="donation_amount"]{
-  position: absolute;
-  top: 40%;
-  bottom: 50%;
-  padding-inline-start: 2rem;
+  margin-inline-start: 2rem;
 }
 
+label[for="donation_amount"] {
+  position: absolute;
+  top: 50%;
+  margin-inline-start: 2rem;
+  border-bottom: 1px solid;
+  text-shadow: 2px 2px rgb(0, 174, 255);
+  transform: translate(10px, -10px);
+  background-color: hotpink;
+  z-index: 1;
+}
 
 .form_donate:focus-within label[for="donation_amount"] {
   position: absolute;
   top: -50%;
   left: 0%;
+  border: none;
 }
 
 input[id="donation_amount"] {
@@ -26,23 +32,24 @@ input[id="donation_amount"] {
 }
 
 input[type="number"] {
-  top: 1rem;
+  top: 50%;
   position: absolute;
-  margin-block-start: 0.5rem;
   margin-inline-start: 1rem;
-
+  transform: translate(10px, -8px);
 }
 
-label[for="donation_amount"],
-label[for="donate_checkbox"] {
+label {
   color: blue;
   text-transform: uppercase;
+  font-size: medium;
+  font-weight: 700;
 }
 
 .button {
   position: absolute;
   left: 80%;
-  top: 35%;
+  top: 50%;
+  transform: translate(10px, -10px);
 }
 
 .checkbox_monthly {
