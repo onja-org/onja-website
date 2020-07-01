@@ -5,11 +5,32 @@ body > main > .masthead {
 
 
 body > main > .masthead > header {
+  font-style: normal;
   text-align: center;
-  color: white;
   background: linear-gradient(0deg,
    rgba(0, 131, 195, 0.8),
    rgba(0, 131, 195, 0.8));
+  padding-block-start: 4rem;
+  padding-block-end: 4rem;
+  padding-inline-start: 4rem;
+  padding-inline-end: 4rem;
+}
+
+.masthead__heading {
+  font-family: Maison Neue Extended TRIAL;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 53px;
+  color: #FFFFFF;
+}
+
+p {
+  font-family: Maison Neue Mono Trial;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.45px;
+  color: #FFFFFF;
 }
 
 picture.masthead__image{
