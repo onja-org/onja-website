@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pattern: PATTERN_NAME</title>
-    <link rel="stylesheet" href="css/index.css">
-  </head>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pattern: PATTERN_NAME</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
 
 <body>
   <form class="form_donate" action="/donate" method="POST">
@@ -18,8 +19,12 @@
     <div class="button button__primary">
       <button type="submit">Donate</button>
     </div>
+    <div class="checkbox_monthly">
+      <input type="checkbox" id="donate_checkbox">
+      <label for="donate_checkbox">Monthly donation</label>
+    </div>
   </form>
-  <input type="checkbox" id="donate_checkbox">
-  <label for="donate_checkbox">Monthly donation</label>
+
 </body>
+
 </html>
