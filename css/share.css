@@ -16,8 +16,8 @@ a {
 }
 
 .share-navigation li a {
-  width: 1rem;
-  height: 1rem;
+  width: 2rem;
+  height: 2rem;
   display: block;
   margin: 0;
 }
@@ -32,6 +32,8 @@ display: block;
 .share {
   display: flex;
   margin: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .share-navigation ul {
