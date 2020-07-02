@@ -13,9 +13,6 @@ article {
   border-radius: var(--border-radius);
 }
 
-article:not(:nth-of-type(9)) {
-  margin-bottom: 1rem;
-}
 .card-donate__heading {
   font-size: 16px;
   line-height: 30px;
@@ -46,6 +43,7 @@ img {
 .card-donate_container {
   padding: 1rem;
 }
+
 .card-donate__progress-bar,
 dl {
   display: flex;
@@ -141,6 +139,3 @@ dl {
   flex-direction: row;
   justify-content: space-between;
 }
-
-
-
