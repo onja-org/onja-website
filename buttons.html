@@ -5,181 +5,238 @@
 		<meta name="viewport" content="width=device-width">
     <title>Buttons</title>
     <link rel="stylesheet" href="buttons.css">
+    <style>
+      .tertiary {
+  background-color: black;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+th, td {
+  padding: 1rem;
+}
+
+    </style>
 	</head>
 	<body>
 		<main>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="5" >
+              These are the collection of all four different types of buttons.
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>
+              <code>.button</code>
+            </th>
+            <th>
+              <code>.button .button__primary</code>
+            </th>
+            <th>
+              <code>.button .button__secondary</code>
+            </th>
+            <th>
+              <code>.button .button__tertiary</code>
+            </th>
+            <th>
+              <code>.button .button__complete</code>
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <button class="button" type="submit">
+                Donate
+              </button>
+            </td>
+            <td>
+              <button class="button button__primary" type="submit">
+                Donate
+              </button>
+            </td>
+            <td>
+              <button class="button button__secondary" type="submit">
+                Donate
+              </button>
+            </td>
+            <td class="tertiary">
+              <button class="button button__tertiary" type="submit">
+                Donate
+              </button>
+            </td>
+            <td>
+              <button class="button button__complete" type="submit">
+                Donate
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
-			<div>
-				<p>
-					These are the collection of all four different type of buttons.
-        </p>
 
-        <table>
-          <thead>
-            <tr>
-              <th colspan="5" >
-                These are the collection of all four different type of buttons.
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <code>.button</code>
-              </td>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="3">
+              These are the collection of the anchors and buttons
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>
+              <p>
+                Class categories
+              </p>
+            </th>
+            <th>
+              <p>
+                Anchors
+              </p>
+            </th>
+            <th>
+              <p>
+                Buttons
+              </p>
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <code>.button</code>
+            </td>
+            <td>
+              <a class="button" href="donation.com">Donate</a>
+            </td>
+            <td>
+              <button class="button" type="submit">
+                Donate
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>.button .button__primary</code>
+            </td>
+            <td>
+              <a class="button button__primary" href="donation.com">Donate</a>
+            </td>
+            <td>
+              <button class="button button__primary" type="submit">
+                Donate
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>.button .button__secondary</code>
+            </td>
+            <td>
+              <a class="button button__secondary" href="donation.com">Donate</a>
+            </td>
+            <td>
+              <button class="button button__secondary" type="submit">
+                Donate
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>.button .button__tertiary</code>
+            </td>
+            <td class="tertiary">
+              <a class="button button__tertiary" href="donation.com">Donate</a>
+            </td>
+            <td class="tertiary">
+              <button class="button button__tertiary" type="submit">
+                Donate
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>.button .button__complete</code>
+            </td>
+            <td>
+              <a class="button button__complete" href="donation.com">Donate</a>
+            </td>
+            <td>
+              <button class="button button__complete" type="submit">
+                Donate
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
-              <td>
-                <code>.button .button__primary</code>
-              </td>
-
-              <td>
-                <code>.button .button__secondary</code>
-              </td>
-
-              <td>
-                <code>.button .button__tertiary</code>
-              </td>
-
-              <td>
-                <code>.button .button__complete</code>
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                <button class="button" type="submit">
-                  Donate
-                </button>
-              </td>
-
-              <td>
-                <button class="button button__primary" type="submit">
-                  Donate
-                </button>
-              </td>
-
-              <td>
-                <button class="button button__secondary" type="submit">
-                  Donate
-                </button>
-              </td>
-
-              <td>
-                <button class="button button__tertiary" type="submit">
-                  Donate
-                </button>
-              </td>
-
-              <td>
-                <button class="button button__complete" type="submit">
-                  Donate
-                </button>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
+      <table>
+        <thead>
+          <th colspan="3">
+            <p>
+              These are only a test for text's flowing/wrapping.
+            </p>
+          </th>
+        </thead>
+        <tbody>
+          <tr>
+            <th>
+              Classification
+            </th>
+            <th>
+              Anchors
+            </th>
+            <th>
+              Buttons
+            </th>
+          </tr>
+          <tr>
+            <td>
+              Text wrapping using <code>br</code>
+            </td>
+            <td>
+              <a class="button button__primary" href="donation.com">Register interest <br> Register interest</a>
+            </td>
+            <td>
+              <button class="button button__primary" type="submit">
+                Register interest <br> Register interest
+            </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Text wrapping using long text
+            </td>
+            <td>
+              <a class="button button__primary" href="donation.com">Register interest Register interest</a>
+            </td>
+            <td>
+              <button class="button button__primary" type="submit">
+                Register interest Register interest
+            </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
       <div>
-
         <p>
-          These are the collection of the anchors and buttons
+          This is just an example to test cases in the HTML so that it works nicely in all cases. This is for the button.
         </p>
-
-			  <!-- These are all the important buttons, the blue ones -->
-			  <a class="button button__primary" href="donation.com">Donate</a>
-				<button class="button button__primary" type="submit">
-					Donate
-			  </button>
-
-			  <a class="button button__primary" href="donation.com">Donate now</a>
-				<button class="button button__primary" type="submit">
-						Donate now
-				</button>
-
-				<a class="button button__primary button__primary--submit" href="donation.com">Send</a>
-				<button class="button button__primary button__primary--submit" type="submit">
-						Send
-				</button>
-
-			  <a class="button button__primary" href="donation.com">Continue to payement</a>
-				<button class="button button__primary" type="submit">
-						Continue to payement
-				</button>
-
-				<a class="button button__primary" href="donation.com">All updates</a>
-				<button class="button button__primary" type="submit">
-						All updates
-				</button>
-
-				<a class="button button__primary" href="donation.com">All students</a>
-				<button class="button button__primary" type="submit">
-						All students
-				</button>
-
-			  <!-- These  are all secodary buttons, the white ones -->
-				<a class="button button__secondary" href="donation.com">Subscribe</a>
-				<button class="button button__secondary" type="submit">
-						Subscribe
-			  </button>
-
-				<a class="button button__secondary" href="donation.com">Register</a>
-				<button class="button button__secondary" type="submit">
-						Register
-			  </button>
-
-				<a class="button button__secondary" href="donation.com">Register interest</a>
-				<button class="button button__secondary" type="submit">
-						Register interest
-			  </button>
-
-				<a class="button button__secondary" href="donation.com">Meet a student</a>
-				<button class="button button__secondary" type="submit">
-						Meet a student
-			  </button>
-
-			  <!-- These are for the ghost buttons -->
-				<a class="button button__tertiary" href="donation.com">Donate</a>
-				<button class="button button__tertiary" type="submit">
-						Donate
-			  </button>
-
-				<a class="button button__tertiary" href="donation.com">Learn more</a>
-				<button class="button button__tertiary" type="submit">
-						Learn more
-			  </button>
-
-			  <!-- This complete button is the most inportant among of all, the green one -->
-				<a class="button button__complete" href="donation.com">Donate</a>
-				<button class="button button__complete" type="submit">
-						Donate
-				</button>
-
+        <button class="button button__primary" type="submit">
+          Register interest Register interest
+        </button>
       </div>
-
-      <!-- These are only a test for text's flowing/wrapping -->
-
       <div>
-
-        <p>These are only a test for text's flowing/wrapping</p>
-
-        <a class="button button__primary" href="donation.com">Register interest <br> Register interest</a>
-				<button class="button button__primary" type="submit">
-						Register interest <br> Register interest
-        </button>
-
-        <a class="button button__primary button__primary--submit" href="donation.com">Send Send<br> Send</a>
-				<button class="button button__primary button__primary--submit" type="submit">
-						Send Send Send Send Send
-				</button>
-
-        <a class="button button__test" href="donation.com">Donate <br> Donate</a>
-        <button class="button button__test" type="submit">
-            Donate <br> Donate
-        </button>
+        <p>
+          This is just an example to test cases in the HTML so that it works nicely in all cases. This is for the anchor.
+        </p>
+        <a class="button button__primary" href="donation.com">Register interest Register interest</a>
       </div>
-
-
 		</main>
 	</body>
 </html>
