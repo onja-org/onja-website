@@ -1,3 +1,14 @@
+:root {
+  --padding-tabe-anchor: 0.5rem;
+  --padding-vertical-buttons: 0.5rem;
+  --padding-horizontal-buttons: 1rem;
+  --margin-for-the-anchor: 0.5rem;
+  --base-font: 14px;
+  --button-width: 46.5px;
+  --base-height: 21.5px;
+  --anchor-width: 21px;
+}
+
 .nav_pagination {
   display: flex;
   flex-direction: row;
@@ -11,22 +22,21 @@
 
 .nav_pagination_list a {
   list-style: none;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  font-size: 14px;
+  padding-left: var(--padding-tabe-anchor);
+  padding-right: var(--padding-tabe-anchor);
+  padding-top: var(--padding-tabe-anchor);
+  padding-bottom: var(--padding-tabe-anchor);
+  font-size: var(--base-font);
   border: 1px solid #C8D1DA;
   border-radius: 50%;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: var(--margin-for-the-anchor);
+  margin-right: var(--margin-for-the-anchor);
   text-align: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: var(--anchor-width);
+  height: var(--base-height);
   font-weight: bold;
   color: darkgray;
-  font-size: 22px;
 }
 .nav_pagination_clicked {
   background-color: #0083C3;
@@ -41,23 +51,24 @@
 
 .nav_pagination__anchor {
   text-decoration: none;
-  line-height: 40px;
+  line-height: var(--base-height);
   display: block;
 }
 
 .nav_pagination_buttons a {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-top: var(--padding-vertical-buttons);
+  padding-bottom: var(--padding-vertical-buttons);
+  padding-left: var(--padding-horizontal-buttons);
+  padding-right: var(--padding-horizontal-buttons);
   border: 1px solid #C8D1DA;
   border-radius: 10rem;
-  width: 90px;
-  height: 40px;
+  width: var(--button-width);
+  height: var(--base-height);
   text-align: center;
   font-weight: bold;
   color: blue;
-  font-size: 22px;
+  font-size: var(--base-font);
+  line-height: var(--base-height);
 }
 
 .ally {
