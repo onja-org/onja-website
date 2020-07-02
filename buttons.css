@@ -40,7 +40,7 @@
 .button__tertiary {
   color: #fff;
   border: 1px solid #fff;
-  background-color: inherit;
+  background-color: transparent;
 }
 
 /* This is a style for the most important button among all, the green one */
@@ -50,13 +50,4 @@
   padding: 1rem 5rem;
 }
 
-/* This is a style for the button which contains the wrapped text */
-.button__test {
-  background-color: rgb(255, 68, 0);
-  color: #fff;
-  padding: 1rem 5rem;
-}
 
-main {
-  background-color: rgb(240, 113, 223);
-}
