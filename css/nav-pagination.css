@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .nav_pagination_list {
@@ -10,15 +11,15 @@
 
 .nav_pagination_list a {
   list-style: none;
-  padding-inline-start: 1rem;
-  padding-inline-end: 1rem;
-  padding-block-start: 1rem;
-  padding-block-end: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   font-size: 14px;
   border: 1px solid #C8D1DA;
   border-radius: 50%;
-  margin-inline-start: 1rem;
-  margin-inline-end: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   text-align: center;
   justify-content: center;
   width: 40px;
@@ -49,10 +50,10 @@
 }
 
 .nav_pagination_buttons a {
-  padding-block-start: 1rem;
-  padding-block-end: 1rem;
-  padding-inline-start: 2rem;
-  padding-inline-end: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   border: 1px solid #C8D1DA;
   border-radius: 10rem;
   width: 90px;
@@ -71,4 +72,5 @@
   padding: 0;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
