@@ -1,3 +1,10 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  gap: 1rem;
+}
+
 article {
   font-family: 'MaisonNeue', Arial, Helvetica, sans-serif;
   border: #cbd1da solid 2px;
