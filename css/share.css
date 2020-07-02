@@ -1,12 +1,10 @@
-
-.share_contact-field {
+ .share_contact-field {
     border: transparent;
-    padding-inline-start: 0;
-    padding-block-start: 0;
-    padding-block-end: 0;
-    margin-block-end: 1rem;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 1rem;
 }
-
 
 .share_contact-label {
   color: #959595;
@@ -15,58 +13,54 @@
 
 .share_user_input,
 #message {
-  padding-block-start: 13px;
-  padding-block-end: 10px;
-  padding-inline-start: 14px;
+  resize: none;
+  -ms-padding-top: 13px;
+  -ms-padding-bottom: 10px;
+  -ms-padding-left: 14px;
+  padding-top: 13px;
+  padding-bottom: 10px;
+  padding-left: 14px;
   width: 100%;
   border: 1px solid #d5d5d5;
   box-sizing: border-box;
   background: rgba(0, 0, 0, 0.0001);
 }
 
-#submit-button {
-  font-size: 18px;
-  line-height: 12px;
-  padding-top: 24px;
-  padding-bottom: 23px;
-  margin-inline-end: 16px;
-  color: #ffffff;
-  text-transform: uppercase;
-  letter-spacing: 2.0252px;
-  text-align: center;
-  margin-block-start: 33px;
-  border-radius: 29.5px;
-  background:#00b2d8;
-  border: 1px solid #d5d5d5;
-}
-
-
 @media (min-width: 480px) {
     .share_contact-form {
       display: grid;
+      display: -ms-grid;
+      -ms-grid-template-columns:repeat(2, 1fr);
       grid-template-columns: repeat(2, 1fr);
+      margin-right: 16px;
+      margin-left: 16px;
       column-gap: 16px;
-      /* row-gap: 16px; */
+      -ms-column-gap:16px;
     }
 
     #fieldset_fullname {
       grid-column: 1;
+      -ms-grid-columns: 1;
 
     }
     #fieldset_subject {
       grid-column: 2;
+      -ms-grid-columns: 2;
     }
 
     #fieldset_email {
       grid-column: 1;
+      -ms-grid-columns: 1;
     }
 
     #fieldset_phone-number {
       grid-column: 2;
+      -ms-grid-columns: 2;
     }
 
     #fieldset_message {
-      grid-column: 1/3;
+      grid-column: 1 / 3;
+      -ms-grid-columns: 1 / 3;
     }
 
   .share_user_input,
@@ -74,11 +68,9 @@
     width: 100%;
   }
   .share_contact-field {
+    -ms-padding: 0;
     padding: 0;
-    margin-inline-end: 16px;
-  }
+    -ms-margi-left: 16px;
 
-  #submit-button {
-    grid-column: 2;
   }
 }
