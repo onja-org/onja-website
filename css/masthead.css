@@ -57,6 +57,16 @@ img {
 
 /* Clear */
 
-body > main > .masthead__donation > header, .masthead__hire > header {
-background: transparent;
+body > main > .masthead__donation > header , .masthead__hire > header {
+  /* background: linear-gradient(0deg,
+  rgba(245, 244, 244, 0.8),
+  rgba(252, 253, 253, 0.8)) transparent; */
+  background: black;
+  opacity: .6;
 }
+body > main > .masthead__donation > header > .masthead__donation_heading,
+body > main > .masthead__donation > header > .masthead__donation_description,
+body > main > .masthead__hire > header > .masthead__hire_heading,
+body > main > .masthead__hire > header >.masthead__hire_description {
+  text-shadow: 2px 2px 3px black;
+  }
