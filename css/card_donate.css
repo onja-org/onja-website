@@ -94,7 +94,7 @@ progress {
 /* value support by internet explorer and microsoft edge */
 ::-ms-fill {
   border: none;
-  border-radius: var(--border-radius);
+  border-radius: 10px;
 }
 
 /* -webkit-progress-value is the the value of the progress bar */
