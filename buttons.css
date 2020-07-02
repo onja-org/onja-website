@@ -17,6 +17,7 @@
   text-align: center;
   display: inline-block;
   vertical-align: middle;
+  font-size: inherit;
 }
 /* This is for the style for all the blue buttons */
 .button__primary {
@@ -54,4 +55,8 @@
   background-color: rgb(255, 68, 0);
   color: #fff;
   padding: 1rem 5rem;
+}
+
+main {
+  background-color: black;
 }
