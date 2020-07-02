@@ -1,0 +1,63 @@
+.card_goal_navigation {
+  margin-block-start: 3rem;
+  font-family: monospace;
+}
+
+.card_goal_navigation__navigation_container {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  color: #7d7d7d;
+  text-align: center;
+  padding: 0;
+}
+
+.card_goal_navigation__list_item {
+  margin-inline-end: 1rem;
+  background-color: #F3F5F7;
+  border-radius: 5px;
+}
+
+.card_goal_navigation__list_item:nth-of-type(1) {
+  margin-inline-start: 1rem;
+}
+
+.card_goal_navigation__list_item--heading {
+  text-transform: uppercase;
+  color: #6A707E;
+  font-weight: 700;
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.card_goal_navigation__div {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.card_goal_navigation__list_item--icon {
+  padding: 1rem;
+}
+
+.card_goal_navigation__list_item--description {
+  padding-inline-start: 20px;
+  padding-inline-end: 20px;
+  padding-block-end: 83px;
+  padding-block-start: 23px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.card_goal_navigation__image {
+  max-width: 80px;
+  max-height: 80px;
+  background-color: #00B2D8;
+  transform: translateY(-70%);
+  align-self: center;
+  align-items: flex-start;
+  border-radius: 50%;
+}
+
+
