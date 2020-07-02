@@ -81,3 +81,16 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+@media (min-width: 700px) {
+  :root {
+    --padding-tabe-anchor: 1rem;
+    --padding-vertical-buttons: 1rem;
+    --padding-horizontal-buttons: 2rem;
+    --margin-for-the-anchor: 1rem;
+    --base-font: 28px;
+    --button-width: 93px;
+    --base-height: 43px;
+    --anchor-width: 42px;
+  }
+}
