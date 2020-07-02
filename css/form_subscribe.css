@@ -1,6 +1,7 @@
 
 .form-subscribe {
-  position: relative;
+  padding-block-start: 2rem;
+  padding-block-end: 2rem;
   color: #FFFFFF;
   background-color: #0083C3;
   line-height: 36px;
@@ -13,18 +14,16 @@
 .user-email {
   border-block-end: 1px solid #FFFFFF;
   position: absolute;
-  top: 30%;
-  left: 50%;
-  transition: top .2s ease-in;
+  top: 0%;
+  transition: top .1s ease-in;
 }
 
 
 .form-subscribe:focus-within label {
   position: absolute;
-  top: 0;
-  left: 50%;
+  top: -50%;
   border: none;
-  transition: top .2s ease-in;
+  transition: top .1s ease-in;
 }
 
 .user-input {
@@ -33,12 +32,16 @@
   border: none;
 }
 
+fieldset {
+  position: relative;
+  border: none;
+}
 
 @media (min-width: 700px) {
   .form-subscribe {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     color: #FFFFFF;
     background-color: #0083C3;
     line-height: 36px;
