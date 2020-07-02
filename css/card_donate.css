@@ -57,18 +57,39 @@ dl {
   height: 20px;
 }
 
+/* The parent element of the progress bar */
 progress {
   -webkit-appearance: none;
+  overflow: hidden;
+  border: none;
+  border-radius: 9px;
+  background-color: whitesmoke;
 }
 
+/* webkit-progress-bar is the inner of the progress bar */
 ::-webkit-progress-bar {
   background-color:whitesmoke;
   border-radius: 9px;
+  overflow: hidden;
 }
 
+/* value support by firefox */
+::-moz-progress-bar {
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+/* value support by internet explorer and microsoft edge */
+::-ms-fill {
+  border: none;
+  border-radius: 9px;
+}
+
+/* -webkit-progress-value is the the value of the progress bar */
 ::-webkit-progress-value {
   background-color: #0083c3;
   border-radius: 9px;
+  overflow: hidden;
 }
 
 .amount {
