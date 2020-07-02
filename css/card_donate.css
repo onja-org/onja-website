@@ -1,12 +1,16 @@
+:root {
+  --imagr_width: 100%;
+}
+
 body {
   background-color: #f2f2f2;
 }
 
 article {
-  background-color: #ffff;
+  background-color: white;
   font-family: 'MaisonNeue', Arial, Helvetica, sans-serif;
   border: #cbd1da solid 2px;
-  border-radius: 10px;
+  border-radius: var(--border-radius);
 }
 
 article:not(:nth-of-type(9)) {
@@ -35,8 +39,8 @@ article:not(:nth-of-type(9)) {
 }
 
 img {
-  width: 100%;
-  height: 100%;
+  width: var(--imagr_width);
+  height: var(calc(--imagr_width / 2));
 }
 
 .card-donate_container {
@@ -70,33 +74,33 @@ progress {
   -webkit-appearance: none;
   overflow: hidden;
   border: none;
-  border-radius: 9px;
+  border-radius: 10px;
   background-color: whitesmoke;
 }
 
 /* webkit-progress-bar is the inner of the progress bar */
 ::-webkit-progress-bar {
   background-color:whitesmoke;
-  border-radius: 9px;
+  border-radius: 10px;
   overflow: hidden;
 }
 
 /* value support by firefox */
 ::-moz-progress-bar {
-  border-radius: 9px;
+  border-radius: 10px;
   overflow: hidden;
 }
 
 /* value support by internet explorer and microsoft edge */
 ::-ms-fill {
   border: none;
-  border-radius: 9px;
+  border-radius: var(--border-radius);
 }
 
 /* -webkit-progress-value is the the value of the progress bar */
 ::-webkit-progress-value {
   background-color: #0083c3;
-  border-radius: 9px;
+  border-radius: 10px;
   overflow: hidden;
 }
 
