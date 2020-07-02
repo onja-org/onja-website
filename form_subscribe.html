@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pattern: form_subscribe</title>
-    <link rel="stylesheet" href="css/index.css">
-  </head>
-  <body>
 
-    <!-- Add the necessary HTML for PATTERN_NAME here: -->
-    <form action="/" method="POST" class="form-subscribe">
-      <h3 class="form-title">Stay in the loop</h3>
-      <label for="input" class="user-email">Your Email</label>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pattern: form_subscribe</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+  <!-- Add the necessary HTML for PATTERN_NAME here: -->
+  <form action="/" method="POST" class="form-subscribe">
+    <h3 class="form-title">Stay in the loop</h3>
+    <div>
+      <fieldset>
+        <label for="input" class="user-email">Your Email</label>
         <input type="email" class="user-input" id="input">
-      <button class="button__secondary button__subscribe">Subscribe</button>
-    </form>
-    <!-- Add any other variations of this pattern -->
+      </fieldset>
+    </div>
+    <button class="button__secondary button__subscribe">Subscribe</button>
+  </form>
+  <!-- Add any other variations of this pattern -->
 
-    <!-- Add test cases of this pattern, like wrapping text, overflowing content, and tight spaces -->
+  <!-- Add test cases of this pattern, like wrapping text, overflowing content, and tight spaces -->
 
-  </body>
+</body>
+
 </html>
