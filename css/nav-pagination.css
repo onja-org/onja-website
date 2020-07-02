@@ -27,14 +27,15 @@
   color: darkgray;
   font-size: 22px;
 }
-.nav_pagination_clicked {
+.nav_pagination_clicked,
+.nav_pagination_third__clicked {
   background-color: #0083C3;
 }
 .nav_pagination_disabled {
   cursor: not-allowed;
   pointer-events: none;
   opacity: 0.25;
-  background-color: gray;
+  background-color: lightgray;
 }
 .nav_pagination_second__clicked {
   background-color: #0083C3;
