@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <title>Onja's website</title>
+</head>
+
+<body>
+  <section class="share_contact-section">
+    <header class="share_contact-header">
+      <h2 class="share_contact-heading">
+        Contact form
+      </h2>
+    </header>
+    <form class="share_contact-form" action="/contact-form" method="POST" id="contact_form">
+      <fieldset class="share_contact-field" id="fieldset_fullname">
+        <label class="share_contact-label" for="fullname" id="fullname_label">Fullname</label><br>
+        <input type="text" class="share_user_input"id="fullname" value="You lift my spirits when I feel down, you shares the joy with me when I’m over the moon, you are with me in good and bad times and you are a reminder of how wonderful our life is." required>
+      </fieldset>
+      <fieldset class="share_contact-field" id="fieldset_subject">
+        <label class="share_contact-label" for="subject" id="subject_label">Subject</label><br>
+        <input type="text" class="share_user_input" id="subject" value="You lift my spirits when I feel down, you shares the joy with me when I’m over the moon, you are with me in good and bad times and you are a reminder of how wonderful our life is." required>
+      </fieldset>
+      <fieldset class="share_contact-field" id="fieldset_email">
+        <label class="share_contact-label" for="email" id="email_label">Email</label><br>
+        <input type="email" class="share_user_input" id="email" name="emails" value="You lift my spirits when I feel down, you shares the joy with me when I’m over the moon, you are with me in good and bad times and you are a reminder of how wonderful our life is." required>
+      </fieldset>
+      <fieldset class="share_contact-field" id="fieldset_phone-number">
+        <label class="share_contact-label" for="phone-number" id="phone_number-label">Phone</label><br>
+        <input type="tel" class="share_user_input" id="phone-number" name="phone" value="You lift my spirits when I feel down, you shares the joy with me when I’m over the moon, you are with me in good and bad times and you are a reminder of how wonderful our life is." required>
+      </fieldset>
+      <fieldset class="share_contact-field" id="fieldset_message">
+        <label class="share_contact-label" for="message" id="message_label">Message</label><br>
+        <textarea id="message" cols="25" rows="5"></textarea>
+      </fieldset>
+      <button type="submit" name="button-form" class ="button button__primary button__primary--submit" id="submit-button">Send</button>
+    </form>
+  </section>
+</body>
+
+</html>
