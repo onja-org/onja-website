@@ -1,5 +1,6 @@
 /* Set sensible defaults */
 @import "defaults.css";
+@import "card-goal.css";
 
 /* Add pattern CSS here: */
 /* @import "PATTERN_NAME.css"; */
