@@ -1,28 +1,41 @@
 
 .form-subscribe {
-  padding-block-start: 2rem;
-  padding-block-end: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   color: #FFFFFF;
   background-color: #0083C3;
   line-height: 36px;
+  padding-left: 2rem;
+  width: 100%;
+  padding-right: 2rem;
 }
 
 .form-title {
   font-weight: 300;
 }
 
-.user-email {
+.form-wrapper {
   border-block-end: 1px solid #FFFFFF;
-  position: absolute;
-  top: 0%;
-  transition: top .1s ease-in;
+  max-width: 250px;
+  margin-bottom: 1rem;
 }
 
+.form-group {
+  position: relative;
+  padding: 0;
+  border: none;
+}
 
 .form-subscribe:focus-within label {
   position: absolute;
   top: -50%;
   border: none;
+  transition: top .1s ease-in;
+}
+
+.user-email {
+  position: absolute;
+  top: 0%;
   transition: top .1s ease-in;
 }
 
@@ -32,17 +45,7 @@
   border: none;
 }
 
-div {
-  border-block-end: 1px solid #FFFFFF;
-}
-
-fieldset {
-  position: relative;
-  padding: 0;
-  border: none;
-}
-
-@media (min-width: 700px) {
+@media (min-width: 400px) {
   .form-subscribe {
     display: flex;
     align-items: center;
@@ -51,5 +54,14 @@ fieldset {
     background-color: #0083C3;
     line-height: 36px;
     font-size: 22px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .user-input {
+    min-width: 200px;
+  }
+
+  .form-wrapper {
+    margin-bottom: 0;
   }
 }
