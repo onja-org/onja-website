@@ -48,8 +48,8 @@ dl {
   text-transform: uppercase;
   line-height: 30px;
   font-weight: 700;
-  padding-block-start: 0.5rem;
-  padding-block-end: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 #progress_bar {
@@ -120,8 +120,8 @@ dt,
   text-decoration: none;
   text-align: center;
   font-weight: 700;
-  padding-block-start: 1rem;
-  padding-block-end: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 dl {
