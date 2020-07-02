@@ -32,8 +32,13 @@
   border: none;
 }
 
+div {
+  border-block-end: 1px solid #FFFFFF;
+}
+
 fieldset {
   position: relative;
+  padding: 0;
   border: none;
 }
 
