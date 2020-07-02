@@ -1,41 +1,25 @@
 .form_donate {
   position: relative;
-  border: 1px solid lightgray;
-  border-radius: 2rem;
-  width: 500px;
-  height: 67px;
   margin-block-start: 4rem;
   margin-inline-start: 2rem;
-}
+  }
 
-label[for="donation_amount"] {
-  position: absolute;
-  top: 50%;
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  margin-right: 2rem;
   margin-inline-start: 2rem;
-  border-bottom: 1px solid;
-  text-shadow: 2px 2px rgb(0, 174, 255);
-  transform: translate(10px, -10px);
-  background-color: hotpink;
+  margin-right: 2rem;
+}
+
+fieldset {
+  border-radius: 5rem;
+  height: 67px;
+  border: 1px solid lightgray;
+  background-color: cyan;
   z-index: 1;
-}
-
-.form_donate:focus-within label[for="donation_amount"] {
-  position: absolute;
-  top: -50%;
-  left: 0%;
-  border: none;
-}
-
-input[id="donation_amount"] {
-  border: transparent;
-  z-index: -1;
-}
-
-input[type="number"] {
-  top: 50%;
-  position: absolute;
-  margin-inline-start: 1rem;
-  transform: translate(10px, -8px);
 }
 
 label {
@@ -45,16 +29,64 @@ label {
   font-weight: 700;
 }
 
-.button {
+input[id="donation_amount"] {
+  border: transparent;
+  z-index: 1;
+}
+
+.form_donate:focus-within label[for="donation_amount"] {
   position: absolute;
-  left: 80%;
-  top: 50%;
-  transform: translate(10px, -10px);
+  top: -50%;
+  left: 4%;
+  border: none;
+  transition-property: top;
+  transition-duration: .1s;
+  transition-timing-function: ease-in;
+}
+
+label[for="donation_amount"] {
+  top: 40%;
+  position: absolute;
+  border-bottom: 1px solid brown;
+  transition-property: top;
+  transition-duration: .1s;
+  transition-timing-function: ease-in;
+  z-index: 2;
+}
+
+input[type="number"] {
+  top: 40%;
+  position: absolute;
+  background-color: cyan;
+}
+
+.form-row {
+  position: relative;
+}
+
+button {
+  position: absolute;
+  margin-top: 1.5rem;
+}
+.button {
+  padding-right: 4rem;
 }
 
 .checkbox_monthly {
   position: absolute;
   top: 100%;
-  left: 30%;
+  left: 40%;
   margin-block-start: 1rem;
+}
+
+@media(max-width: 378px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-wrap: wrap;
+  }
+  .button {
+    padding-top: 2rem;
+  }
 }

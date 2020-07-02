@@ -10,15 +10,17 @@
 
 <body>
   <form class="form_donate" action="/donate" method="POST">
-    <div class="form_row">
-      <label for="donation_amount">Enter amount</label>
-      <div class="form_field">
-        <input type="number" name="amount" id="donation_amount">
+    <fieldset>
+      <div class="form">
+        <div class="form_row">
+          <label for="donation_amount">Enter amount</label>
+          <input type="number" name="amount" id="donation_amount">
+        </div>
+        <div class="button button__primary">
+          <button type="submit">Donate</button>
+        </div>
       </div>
-    </div>
-    <div class="button button__primary">
-      <button type="submit">Donate</button>
-    </div>
+    </fieldset>
     <div class="checkbox_monthly">
       <input type="checkbox" id="donate_checkbox">
       <label for="donate_checkbox">Monthly donation</label>
