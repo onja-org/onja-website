@@ -3,6 +3,7 @@ a {
   color: #C8D1DA;
 }
 
+/*size and color of the svg*/
 .icon svg {
   fill:currentColor;
   max-width: 100%;
@@ -13,6 +14,7 @@ a {
   text-transform: uppercase;
   font-weight: 700;
   margin: 0;
+  margin-right: 3.125rem;
 }
 
 .share-navigation li a {
@@ -22,11 +24,14 @@ a {
   margin: 0;
 }
 
- .share-navigation li {
-list-style: none;
-padding: 0 1rem;
-margin: 0;
-display: block;
+.share-navigation li {
+  list-style: none;
+  margin: 0;
+  display: block;
+}
+
+.share-navigation li:not(:first-of-type) {
+  margin-left: 1.25rem;
 }
 
 .share {
@@ -41,6 +46,7 @@ display: block;
   margin: 0;
   flex-direction: row;
   align-items: center;
+  padding: 0;
 }
 
 /*Darkgrey share*/
@@ -48,3 +54,12 @@ display: block;
 .share-second a{
   color:#6A707E;
 }
+
+/* html test case
+body {
+  background-color: blue;
+}
+
+.share-third {
+  justify-content: flex-end;
+}*/
