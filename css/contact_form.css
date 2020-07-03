@@ -11,6 +11,7 @@
    --grid-gap: 16px;
    --field-width: 100%
  }
+
  .share_contact-field {
     border: transparent;
     padding-left: calc(var(--padding-left-value) * 0);
