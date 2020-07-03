@@ -1,3 +1,4 @@
+/* Form style */
 
 .form-subscribe {
   padding-top: 2rem;
@@ -26,13 +27,6 @@
   border: none;
 }
 
-.form-subscribe:focus-within label {
-  position: absolute;
-  top: -50%;
-  border: none;
-  transition: top .1s ease-in;
-}
-
 .user-email {
   position: absolute;
   top: 0%;
@@ -44,6 +38,17 @@
   color: #FFFFFF;
   border: none;
 }
+
+/* When the label is focused, the input appears */
+
+.form-subscribe:focus-within label {
+  position: absolute;
+  top: -50%;
+  border: none;
+  transition: top .1s ease-in;
+}
+
+/* For a screen bigger than 400px. */
 
 @media (min-width: 400px) {
   .form-subscribe {
@@ -65,6 +70,8 @@
     margin-bottom: 0;
   }
 }
+
+
 
 /* Any other variations of this pattern */
 
