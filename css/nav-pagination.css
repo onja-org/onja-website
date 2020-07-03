@@ -3,7 +3,8 @@
   --padding-vertical-buttons: 0.5rem;
   --padding-horizontal-buttons: 1rem;
   --margin-for-the-anchor: 0.5rem;
-  --base-font: 14px;
+  --text-font-size: 14px;
+  --number-font-size: 12px;
   --button-width: 46.5px;
   --base-height: 21.5px;
   --anchor-width: 21px;
@@ -26,7 +27,7 @@
   padding-right: var(--padding-tabe-anchor);
   padding-top: var(--padding-tabe-anchor);
   padding-bottom: var(--padding-tabe-anchor);
-  font-size: var(--base-font);
+  font-size: var(--number-font-size);
   border: 1px solid #C8D1DA;
   border-radius: 50%;
   margin-left: var(--margin-for-the-anchor);
@@ -64,7 +65,7 @@
   text-align: center;
   font-weight: bold;
   color: blue;
-  font-size: var(--base-font);
+  font-size: var(--text-font-size);
   line-height: var(--base-height);
 }
 
@@ -93,7 +94,8 @@
     --padding-vertical-buttons: 1rem;
     --padding-horizontal-buttons: 2rem;
     --margin-for-the-anchor: 1rem;
-    --base-font: 28px;
+    --text-font-size: 28px;
+    --number-font-size:24px;
     --button-width: 93px;
     --base-height: 43px;
     --anchor-width: 42px;
