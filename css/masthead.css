@@ -7,13 +7,11 @@ body > main > .masthead {
 .masthead > header {
   font-style: normal;
   text-align: center;
-  background: linear-gradient(0deg,
-   rgba(0, 131, 195, 0.8),
-   rgba(0, 131, 195, 0.8));
   padding-top: 4rem;
   padding-bottom: 4rem;
   padding-left: 4rem;
   padding-right: 4rem;
+  background-color: rgba(22, 5, 253, 0.473);
 }
 
 /*This holds the header h2 and its property*/
@@ -54,16 +52,12 @@ img {
 
 
 
-
-/* Clear */
+/* Clean background*/
 
 body > main > .masthead__donation > header , .masthead__hire > header {
-  /* background: linear-gradient(0deg,
-  rgba(245, 244, 244, 0.8),
-  rgba(252, 253, 253, 0.8)) transparent; */
-  background: black;
-  opacity: .6;
+  background-color: rgba(124, 120, 120, 0.466);
 }
+
 body > main > .masthead__donation > header > .masthead__donation_heading,
 body > main > .masthead__donation > header > .masthead__donation_description,
 body > main > .masthead__hire > header > .masthead__hire_heading,
