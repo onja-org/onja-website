@@ -55,11 +55,22 @@ a {
   color:#6A707E;
 }
 
-/* html test case
-body {
-  background-color: blue;
+/* html test case*/
+.end-start .share-second{
+  justify-content: flex-end;
 }
 
-.share-third {
-  justify-content: flex-end;
-}*/
+.wrapping {
+  justify-content: start;
+  padding: 0;
+}
+
+.bg-blue {
+  background-color: blue;
+  padding: 2rem;
+}
+
+.bg-grey {
+  background-color: grey;
+  padding: 2rem;
+}
