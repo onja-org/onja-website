@@ -11,7 +11,6 @@
   flex-wrap: wrap-reverse;
   margin-right: 2rem;
   margin-inline-start: 2rem;
-  margin-right: 2rem;
 }
 
 fieldset {
@@ -22,7 +21,7 @@ fieldset {
   z-index: 1;
 }
 
-label {
+.label {
   color: blue;
   text-transform: uppercase;
   font-size: medium;
@@ -64,7 +63,7 @@ input[type="number"] {
   position: relative;
 }
 
-button {
+.button_donate {
   position: absolute;
   margin-top: 1.5rem;
 }
@@ -87,6 +86,25 @@ button {
     flex-wrap: wrap;
   }
   .button {
-    padding-top: 2rem;
+    padding-top: 1rem;
+  }
+  .checkbox_monthly {
+    left: 10%;
+    margin-block-start: 1rem;
   }
 }
+
+/* Testing */
+.field {
+  background-color: lightgray;
+}
+
+#donation_number {
+  background-color: lightgray;
+  border: transparent;
+}
+
+.button-1 {
+  padding-right: 4rem;
+}
+
