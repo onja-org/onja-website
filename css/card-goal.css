@@ -1,3 +1,7 @@
+header {
+  display: none;
+}
+
 .card_goal_navigation {
   margin-top: 3rem;
   font-family: monospace;
