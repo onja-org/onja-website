@@ -10,8 +10,14 @@ article {
   background-color: white;
   font-family: 'MaisonNeue', Arial, Helvetica, sans-serif;
   border: #cbd1da solid 2px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+.card-donate__image {
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+  width: var(--image_width);
+  height: var(calc(--image_width / 2));
 }
 
 .card-donate__heading {
@@ -34,13 +40,6 @@ article {
   line-height: 22px;
   color: #7d7d7d;
   font-weight: 400;
-}
-
-img {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  width: var(--image_width);
-  height: var(calc(--image_width / 2));
 }
 
 .card-donate_container {
