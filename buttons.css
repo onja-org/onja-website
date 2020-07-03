@@ -2,18 +2,18 @@
   --button-line-height: 1.25;
   --button-based-font-size: 1.125rem;
   --button-base-unit: 1rem;
-  --button-content-height: calc(var(--line_height) * var(--based-font-size));
-  --button-line-height-gap: calc( var(--button-content-height) - var((--based-font-size) / 2));
+  --button-content-height: calc(var(--button-line-height) * var(--button-based-font-size));
+  --button-line-height-gap: calc((var(--button-content-height) - var(--button-based-font-size)) / 2);
   --button-padding-block: calc(var(--button-base-unit) - var(--button-line-height-gap));
 
   border: 1px solid;
   border-radius: 1.5rem;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 1rem 3rem;
+  padding: var(--button-padding-block) 3rem;
   font-family: inherit;
-  font-size: var(--based-font-size);
-  line-height: var(--line_height);
+  font-size: var(--button-based-font-size);
+  line-height: var(--button-line-height);
   text-align: center;
   display: inline-block;
   vertical-align: middle;
