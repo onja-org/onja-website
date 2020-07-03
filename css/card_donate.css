@@ -1,5 +1,5 @@
 :root {
-  --imagr_width: 100%;
+  --image_width: 100%;
 }
 
 body {
@@ -10,7 +10,8 @@ article {
   background-color: white;
   font-family: 'MaisonNeue', Arial, Helvetica, sans-serif;
   border: #cbd1da solid 2px;
-  border-radius: var(--border-radius);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
 }
 
 .card-donate__heading {
@@ -36,8 +37,10 @@ article {
 }
 
 img {
-  width: var(--imagr_width);
-  height: var(calc(--imagr_width / 2));
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: var(--image_width);
+  height: var(calc(--image_width / 2));
 }
 
 .card-donate_container {
