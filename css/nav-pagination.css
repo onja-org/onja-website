@@ -81,6 +81,8 @@
 }
 .nav_pagination_clicked {
   background-color: #0083C3;
+}
+.nav_pagination_list a.nav_pagination_clicked {
   color: white;
 }
 
