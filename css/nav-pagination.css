@@ -46,7 +46,6 @@
   background-color: lightgray;
 }
 
-
 .nav_pagination__anchor {
   text-decoration: none;
   line-height: var(--base-height);
@@ -79,10 +78,12 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
-.nav_pagination_clicked {
+
+.nav_pagination_current__page {
   background-color: #0083C3;
 }
-.nav_pagination_list a.nav_pagination_clicked {
+
+.nav_pagination_list a.nav_pagination_current__page {
   color: white;
 }
 
