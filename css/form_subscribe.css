@@ -5,7 +5,6 @@
   padding-bottom: 2rem;
   color: #FFFFFF;
   background-color: #0083C3;
-  line-height: 36px;
   padding-left: 2rem;
   width: 100%;
   padding-right: 2rem;
@@ -75,7 +74,7 @@
 
 /* Any other variations of this pattern */
 
-.second-example .form-subscribe2 {
+ .form-subscribe2 {
   padding-top: 2rem;
   padding-bottom: 2rem;
   color: #FFFFFF;
@@ -86,43 +85,45 @@
   padding-right: 2rem;
 }
 
-.second-example .form-title2 {
+ .form-title2 {
   font-weight: 300;
 }
 
-.second-example .form-wrapper2 {
+ .form-wrapper2 {
   border-block-end: 1px solid #FFFFFF;
   max-width: 250px;
   margin-bottom: 1rem;
 }
 
-.second-example .form-group2 {
+ .form-group2 {
   position: relative;
   padding: 0;
   border: none;
 }
 
-.second-example .form-subscribe2:focus-within .user-email2 {
+ .form-subscribe2:focus-within .user-email2 {
   position: absolute;
   top: -50%;
   border: none;
   transition: top .1s ease-in;
 }
 
-.second-example .user-email2 {
+ .user-email2 {
   position: absolute;
   top: 0%;
   transition: top .1s ease-in;
 }
 
-.second-example .user-input2 {
+ .user-input2 {
   background-color: transparent;
   color: #FFFFFF;
   border: none;
 }
+div {
 
+}
 @media (min-width: 400px) {
-  .second-example .form-subscribe2 {
+   .form-subscribe2 {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -133,17 +134,17 @@
     padding-left: 0;
     padding-right: 0;
   }
-  .second-example .user-input2 {
+   .user-input2 {
     min-width: 200px;
   }
 
-  .second-example .form-wrapper2 {
+   .form-wrapper2 {
     margin-bottom: 0;
   }
 }
 
 /* Add test cases of this pattern, like wrapping text, overflowing content, and tight spaces  */
-.third-example .form-subscribe3 {
+ .form-subscribe3 {
   padding-top: 2rem;
   padding-bottom: 2rem;
   color: #FFFFFF;
@@ -154,43 +155,43 @@
   padding-right: 2rem;
 }
 
-.third-example .form-title3 {
+ .form-title3 {
   font-weight: 300;
 }
 
-.third-example .form-wrapper3 {
+ .form-wrapper3 {
   border-block-end: 1px solid #FFFFFF;
   max-width: 250px;
   margin-bottom: 1rem;
 }
 
-.third-example .form-group3 {
+ .form-group3 {
   position: relative;
   padding: 0;
   border: none;
 }
 
-.third-example .form-subscribe3:focus-within .user-email3 {
+ .form-subscribe3:focus-within .user-email3 {
   position: absolute;
   top: -50%;
   border: none;
   transition: top .1s ease-in;
 }
 
-.third-example .user-email3 {
+ .user-email3 {
   position: absolute;
   top: 0%;
   transition: top .1s ease-in;
 }
 
-.third-example .user-input3 {
+ .user-input3 {
   background-color: transparent;
   color: #FFFFFF;
   border: none;
 }
 
 @media (min-width: 400px) {
-  .third-example .form-subscribe3 {
+   .form-subscribe3 {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -201,18 +202,18 @@
     padding-left: 0;
     padding-right: 0;
   }
-  .third-example .user-input3 {
+   .user-input3 {
     min-width: 200px;
   }
 
-  .third-example .form-wrapper3 {
+   .form-wrapper3 {
     margin-bottom: 0;
   }
 }
 
 
 
-.fourth-example .form-subscribe4 {
+.form-subscribe4 {
   padding-top: 2rem;
   padding-bottom: 2rem;
   color: #FFFFFF;
@@ -223,43 +224,43 @@
   padding-right: 2rem;
 }
 
-.fourth-example .form-title4 {
+.form-title4 {
   font-weight: 300;
 }
 
-.fourth-example .form-wrapper4 {
+.form-wrapper4 {
   border-block-end: 1px solid #FFFFFF;
   max-width: 250px;
   margin-bottom: 1rem;
 }
 
-.fourth-example .form-group4 {
+.form-group4 {
   position: relative;
   padding: 0;
   border: none;
 }
 
-.fourth-example .form-subscribe4:focus-within .user-email4 {
+.form-subscribe4:focus-within .user-email4 {
   position: absolute;
   top: -50%;
   border: none;
   transition: top .1s ease-in;
 }
 
-.fourth-example .user-email4 {
+.user-email4 {
   position: absolute;
   top: 0%;
   transition: top .1s ease-in;
 }
 
-.fourth-example .user-input4 {
+.user-input4 {
   background-color: transparent;
   color: #FFFFFF;
   border: none;
 }
 
 @media (min-width: 400px) {
-  .fourth-example .form-subscribe4 {
+  .form-subscribe4 {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -270,11 +271,23 @@
     padding-left: 0;
     padding-right: 0;
   }
-  .fourth-example .user-input4 {
+  .user-input4 {
     min-width: 200px;
   }
 
-  .fourth-example .form-wrapper4 {
+  .form-wrapper4 {
     margin-bottom: 0;
   }
+}
+
+.normal,
+.first-example,
+.second-example,
+.third-example,
+.fourth-example {
+  text-align: center;
+}
+
+.form-title {
+  text-align: start;
 }
