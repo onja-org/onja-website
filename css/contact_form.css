@@ -62,8 +62,8 @@
     #fieldset_fullname {
       grid-column: 1;
       -ms-grid-columns: 1;
-
     }
+
     #fieldset_subject {
       grid-column: 2;
       -ms-grid-columns: 2;
@@ -88,10 +88,12 @@
       grid-column: 2;
       -ms-grid-column: 2;
     }
+
   .share_user_input,
   #message {
     width: var(--field-width);
   }
+
   .share_contact-field {
     -ms-padding: 0;
      padding: 0;
