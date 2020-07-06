@@ -30,7 +30,7 @@ fieldset {
 
 input[id="donation_amount"] {
   border: transparent;
-  z-index: 1;
+  outline: none;
 }
 
 .form_donate:focus-within label[for="donation_amount"] {
@@ -57,6 +57,7 @@ input[type="number"] {
   top: 40%;
   position: absolute;
   background-color: cyan;
+  resize: none;
 }
 
 .form-row {
