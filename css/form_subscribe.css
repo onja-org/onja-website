@@ -119,9 +119,7 @@
   color: #FFFFFF;
   border: none;
 }
-div {
 
-}
 @media (min-width: 400px) {
    .form-subscribe2 {
     display: flex;
