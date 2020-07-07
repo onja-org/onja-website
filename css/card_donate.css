@@ -2,21 +2,22 @@
   --image_width: 100%;
 }
 
-.card-donate {
+.card_donate {
   background-color: white;
   font-family: 'MaisonNeue', Arial, Helvetica, sans-serif;
   border: #cbd1da solid 2px;
   border-top-left-radius: 14px;
   border-top-right-radius: 14px;
 }
-.card-donate__image {
+
+.card_donate__image {
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   width: var(--image_width);
   height: var(calc(--image_width / 2));
 }
 
-.card-donate__heading {
+.card_donate__heading {
   font-size: 16px;
   line-height: 30px;
   color: #213140;
@@ -24,34 +25,33 @@
   font-weight: 700;
 }
 
-.card-donate__info,
-.progress_bar-label,
-.to-go_amount,
-.received_amount,
-.card-donate__link {
+.card_donate__info,
+.card_donate__progress-bar--label,
+.card_donate--amount,
+.card_donate__link {
   font-size: 14px;
 }
 
-.card-donate__info {
+.card_donate__info {
   line-height: 22px;
   color: #7d7d7d;
   font-weight: 400;
 }
 
-.card-donate_container {
+.card_donate__container {
   padding: 1rem;
 }
 
-.card-donate__progress-bar,
-dl {
+.card_donate__progress-bar,
+.card_donate__deflist {
   display: flex;
 }
 
-.card-donate__progress-bar {
+.card_donate__progress-bar {
   flex-direction: column;
 }
 
-.progress_bar-label {
+.card_donate__progress-bar--label {
   color: #0083c3;
   text-transform: uppercase;
   line-height: 30px;
@@ -100,27 +100,26 @@ progress {
   overflow: hidden;
 }
 
-.amount {
+.card_donate--amount {
   margin: 0;
 }
 
-dt,
-.to-go_amount {
+.card_donate__deflist {
   color: #2e2e2e;
   text-transform: uppercase;
   font-weight: 700;
   line-height: 25px;
 }
 
-.received_amount {
+.card_donate__deflist--received-amount {
   color: #0083c3;
 }
 
-.card-donate__footer {
-  border-top: 2px solid #cbd1da;
+.card_donate__footer {
+  border-top: 1px solid #cbd1da;
 }
 
-.card-donate__link {
+.card_donate__link {
   display: block;
   text-transform: uppercase;
   color: #0083c3;
@@ -131,8 +130,12 @@ dt,
   padding-bottom: 1rem;
 }
 
-dl {
+.card_donate__deflist {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.footer__paragraph {
+  margin: 0;
 }
