@@ -2,6 +2,7 @@
 @import "defaults.css";
 @import "card_donate.css";
 @import "card-goal.css";
+
 @import "contact_form.css";
 @import "buttons.css";
 @import "form_donate.css";
@@ -9,5 +10,7 @@
 @import "nav-pagination.css";
 @import "masthead.css";
 /*feature/masthead*/
+@import "nav_pagination.css";
+@import "card_goal.css";
 /* Add pattern CSS here: */
 @import "form_subscribe.css";

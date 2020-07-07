@@ -58,9 +58,9 @@ body > main > .masthead__donation > header , .masthead__hire > header {
   background-color: rgba(124, 120, 120, 0.466);
 }
 
-body > main > .masthead__donation > header > .masthead__donation_heading,
-body > main > .masthead__donation > header > .masthead__donation_description,
-body > main > .masthead__hire > header > .masthead__hire_heading,
-body > main > .masthead__hire > header >.masthead__hire_description {
+body > main > .masthead__donation > header > .masthead__donation--heading,
+body > main > .masthead__donation > header > .masthead__donation--description,
+body > main > .masthead__hire > header > .masthead__hire--heading,
+body > main > .masthead__hire > header >.masthead__hire--description {
   text-shadow: 2px 2px 3px black;
   }
