@@ -4,45 +4,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pattern: PATTERN_NAME</title>
+  <title>Pattern: form_donate</title>
   <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-  <form class="form_donate" action="/donate" method="POST">
-    <fieldset class="form_donate_fieldset">
-      <div class="form_donate_form">
-        <div class="form_row">
-          <label class="form_donate_label" for="donation_amount">Enter amount</label>
-          <input type="number" name="amount" id="donation_amount">
+  <form class="form_donate__form" action="/donate" method="POST">
+    <fieldset class="form_donate__fieldset">
+      <div class="form_donate__form--field">
+        <div class="form_donate__form_row">
+          <label class="form_donate__label form_donate__label--amount" for="donation_amount">Enter amount</label>
+          <input type="number" class="form_donate__input--amount" name="amount" id="donation_amount">
         </div>
         <div class="button button__primary">
-          <button class="button_donate" type="submit">Donate</button>
+          <button class="form_donate__button_donate" type="submit">Donate</button>
         </div>
       </div>
     </fieldset>
-    <div class="checkbox_monthly">
-      <input type="checkbox" id="donate_checkbox">
-      <label class="form_donate_label" for="donate_checkbox">Monthly donation</label>
+    <div class="form_donate__checkbox_monthly">
+      <input type="checkbox" class="form_donate__input--checkbox" id="donate_checkbox">
+      <label class="form_donate__label" for="donate_checkbox">Monthly donation</label>
     </div>
   </form>
 
 
-  <form class="form_donate" action="/donate" method="POST">
-    <fieldset class="form_donate_field form_donate_fieldset">
-      <div class="form_donate_form">
+  <form class="form_donate__form action="/donate" method="POST">
+    <fieldset class="form_donate_field form_donate__fieldset">
+      <div class="form_donate__form--field">
         <div class="row_form">
-          <label class="label1 form_donate_label" for="donation_amount">Lorem ipsum dolor sit amet consectetur</label>
-          <input type="number" class="input_number" name="amount" id="donation_number">
+          <label class="form_donate__label form_donate__label--amount" for="donation_amount">Lorem ipsum dolor sit amet consectetur</label>
+          <input type="number" class="input_number form_donate__input--amount" name="amount" id="donation_number">
         </div>
         <div class="button-1 button__primary">
-          <button class="button_donate" type="submit">Donate <br> I like it</button>
+          <button class="button_donate form_donate__button_donate" type="submit">Donate <br> I like it</button>
         </div>
       </div>
     </fieldset>
-    <div class="checkbox_monthly">
-      <input type="checkbox" id="donate_checkbox">
-      <label class="form_donate_label" for="donate_checkbox">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</label>
+    <div class="form_donate__checkbox_monthly">
+      <input type="checkbox" class="form_donate__input--checkbox" id="donate_checkbox">
+      <label class="form_donate__label" for="donate_checkbox">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</label>
     </div>
   </form>
 
