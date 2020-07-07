@@ -6,19 +6,19 @@ html {
 body {
   margin: 0;
 }
-.nav_pagination_heading {
+.nav_pagination__heading {
   color: red;
   text-align: center;
 }
 
-.nav_pagination_section {
+.nav_pagination__section {
   padding-left: 2rem;
   padding-top: 2rem;
   padding-right: 2rem;
   padding-bottom: 2rem;
 }
 
-.nav_pagination_description {
+.nav_pagination__description {
   padding-left: 1rem;
   padding-top: 1rem;
   padding-right: 1rem;
