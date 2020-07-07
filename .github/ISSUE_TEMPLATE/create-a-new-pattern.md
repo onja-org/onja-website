@@ -4,12 +4,12 @@ about: Describe and define a pattern
 title: 'Add a new pattern: PATTERN_NAME'
 labels: Pattern
 assignees: ''
-
+project: '1'
 ---
 
 Pattern name: `PATTERN_NAME`
-Description: 
-Example: 
+Description:
+Example:
 
 - [ ] Create a new branch such as `feature/PATTERN_NAME`
 - [ ] Choose a good class name
