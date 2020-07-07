@@ -40,7 +40,7 @@
 
 /* When the label is focused, the input appears */
 
-.form-subscribe:focus-within label {
+.form-subscribe:focus-within .user-email {
   position: absolute;
   top: -50%;
   border: none;
