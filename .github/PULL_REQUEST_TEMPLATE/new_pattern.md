@@ -14,11 +14,9 @@ We've added a new pattern!
 
 **Description**
 
-
+We were working on the contact form. It is a form that enables a user to interact with the owner of the website. We made it work responsively with mobile phones and desktops.
 
 **Screenshots**
-
-
 
 **Checklist**
 

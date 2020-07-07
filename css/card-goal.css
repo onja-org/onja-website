@@ -1,0 +1,131 @@
+.card_goal__heading {
+  display: none;
+}
+
+.card_goal_navigation {
+  margin-top: 3rem;
+  font-family: monospace;
+}
+
+.card_goal_navigation__navigation_container {
+  list-style: none;
+  color: #7d7d7d;
+  padding: 0;
+  margin-right: 1rem;
+}
+
+.card_goal_navigation__list_item {
+  margin-left: 1rem;
+  background-color: #F3F5F7;
+  border-radius: 5px;
+}
+
+
+.card_goal_navigation__list_item--heading {
+  text-transform: uppercase;
+  color: #6A707E;
+  font-weight: 700;
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.card_goal_navigation__div {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.card_goal_navigation__list_item--icon {
+  padding: 1rem;
+}
+
+.card_goal_navigation__list_item--description {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 83px;
+  padding-top: 23px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.card_goal_navigation__image {
+  max-width: 80px;
+  max-height: 80px;
+  background-color: #00B2D8;
+  transform: translateY(-70%);
+  align-self: center;
+  align-items: flex-start;
+  border-radius: 50%;
+}
+
+@media(min-width: 768px) {
+  .card_goal_navigation_mobile__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    -ms-grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media(min-width: 1000px) {
+  .card_goal_navigation_mobile__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    -ms-grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+/* Test */
+
+.card_goal_test {
+  margin-top: 3rem;
+  font-family: monospace;
+  background-color: lightsteelblue;
+  max-width: 375px;
+  border-radius: 5px;
+  margin-inline-start: 1rem;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.card_goal_test__container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.card_goal_test__heading {
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #6A707E;
+  margin: 0;
+}
+
+.card_goal_test__image {
+  max-width: 80px;
+  max-height: 80px;
+  background-color: #00B2D8;
+  transform: translateY(-70%);
+  align-self: center;
+  align-items: flex-start;
+  border-radius: 50%;
+}
+
+.card_goal_test__icon--icon {
+  padding: 1rem;
+  margin: 0;
+}
+
+.card_goal_test__paragraph--description {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 83px;
+  padding-top: 23px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+}
