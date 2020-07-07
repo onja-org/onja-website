@@ -2,13 +2,15 @@
 @import "defaults.css";
 @import "card-goal.css";
 @import "card-goal-edge.css";
-
 @import "contact_form.css";
+<<<<<<< HEAD
 
 @import "form_donate.css";
 
+=======
+@import "share.css";
+>>>>>>> 83bda54fdfc7e6e5cce0a3dd454290c9bb939ade
 @import "nav-pagination.css";
-
 @import "masthead.css";
 /*feature/masthead*/
 /* Add pattern CSS here: */
