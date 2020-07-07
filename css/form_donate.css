@@ -38,12 +38,17 @@
 }
 
 .form_donate__input--amount {
+  position: absolute;
+  top: 50%;
   border: transparent;
   outline: none;
+  z-index: -1;
 }
 
 .form_donate__label--amount {
-  border-bottom: 1px solid brown;
+  position: absolute;
+  top: 50%;
+  border-bottom: 1px solid blue;
   transition-property: top;
   transition-duration: .1s;
   transition-timing-function: ease-in;
