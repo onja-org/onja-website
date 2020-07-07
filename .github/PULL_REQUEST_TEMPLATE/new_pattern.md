@@ -1,3 +1,15 @@
+---
+name: Created a new pattern
+about: Describe and define a pattern
+title: 'Added a new pattern: PATTERN_NAME'
+labels: Pattern
+assignees: '@ndorfin'
+project: '1'
+
+---
+
+Fixes #…
+
 We've added a new pattern!
 
 **Description**

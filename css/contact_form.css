@@ -1,5 +1,4 @@
  :root {
-   --border-color: transparent;
    --padding-top-value: 16px;
    --padding-bottom-value: 16px;
    --padding-left-value: 16px;
@@ -9,7 +8,7 @@
    --margin-left-value: 16px;
    --margin-right-value: 16px;
    --grid-gap: 16px;
-   --field-width: 100%
+   --field-width: 100%;
  }
 
  .share_contact-field {
