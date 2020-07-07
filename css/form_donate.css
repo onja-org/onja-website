@@ -1,0 +1,111 @@
+.form_donate {
+  position: relative;
+  margin-block-start: 4rem;
+  margin-inline-start: 2rem;
+  }
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  margin-right: 2rem;
+  margin-inline-start: 2rem;
+}
+
+fieldset {
+  border-radius: 5rem;
+  height: 67px;
+  border: 1px solid lightgray;
+  background-color: cyan;
+  z-index: 1;
+}
+
+.label {
+  color: blue;
+  text-transform: uppercase;
+  font-size: medium;
+  font-weight: 700;
+}
+
+input[id="donation_amount"] {
+  border: transparent;
+  outline: none;
+}
+
+.form_donate:focus-within label[for="donation_amount"] {
+  position: absolute;
+  top: -50%;
+  left: 4%;
+  border: none;
+  transition-property: top;
+  transition-duration: .1s;
+  transition-timing-function: ease-in;
+}
+
+label[for="donation_amount"] {
+  top: 40%;
+  position: absolute;
+  border-bottom: 1px solid brown;
+  transition-property: top;
+  transition-duration: .1s;
+  transition-timing-function: ease-in;
+  z-index: 2;
+}
+
+input[type="number"] {
+  top: 40%;
+  position: absolute;
+  background-color: cyan;
+  resize: none;
+}
+
+.form-row {
+  position: relative;
+}
+
+.button_donate {
+  position: absolute;
+  margin-top: 1.5rem;
+}
+.button {
+  padding-right: 4rem;
+}
+
+.checkbox_monthly {
+  position: absolute;
+  top: 100%;
+  left: 40%;
+  margin-block-start: 1rem;
+}
+
+@media(max-width: 378px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-wrap: wrap;
+  }
+  .button {
+    padding-top: 1rem;
+  }
+  .checkbox_monthly {
+    left: 10%;
+    margin-block-start: 1rem;
+  }
+}
+
+/* Testing */
+.field {
+  background-color: lightgray;
+}
+
+#donation_number {
+  background-color: lightgray;
+  border: transparent;
+}
+
+.button-1 {
+  padding-right: 4rem;
+}
+
