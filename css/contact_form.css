@@ -11,7 +11,7 @@
    --field-width: 100%
  }
 
- .share_contact-field {
+ .form-contact_contact-field {
     border: transparent;
     padding-left: calc(var(--padding-left-value) * 0);
     padding-top: calc(var(--padding-top-value) * 0);
@@ -19,17 +19,17 @@
     margin-bottom: var(--margin-bottom-value);
 }
 
-.share_contact-label {
+.form-contact_contact-label {
   color: #959595;
   line-height: 20px;
 }
 
-.share_user_input:focus,
+.form-contact_user_input:focus,
 #message:focus {
   outline: none;
 }
 
-.share_user_input,
+.form-contact_user_input,
 #message {
   resize: none;
   padding-right: var(--padding-right-value);
@@ -48,7 +48,7 @@
 }
 
 @media (min-width: 480px) {
-    .share_contact-form {
+    .form-contact_contact-form {
       display: grid;
       display: -ms-grid;
       -ms-grid-template-columns:repeat(2, 1fr);
@@ -89,12 +89,12 @@
       -ms-grid-column: 2;
     }
 
-  .share_user_input,
+  .form-contact_user_input,
   #message {
     width: var(--field-width);
   }
 
-  .share_contact-field {
+  .form-contact_contact-field {
     -ms-padding: 0;
      padding: 0;
   }
