@@ -1,10 +1,11 @@
 /* Set sensible defaults */
 @import "defaults.css";
 @import "card-goal.css";
-
 @import "contact_form.css";
+@import "buttons.css";
+@import "form_donate.css";
+@import "share.css";
 @import "nav-pagination.css";
-
 @import "masthead.css";
 /*feature/masthead*/
 /* Add pattern CSS here: */
