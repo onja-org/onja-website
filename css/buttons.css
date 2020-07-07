@@ -1,0 +1,66 @@
+.button {
+  --button-line-height: 1.25;
+  --button-based-font-size: 1.125rem;
+  --button-base-unit: 1rem;
+  --button-content-height: calc(var(--button-line-height) * var(--button-based-font-size));
+  --button-line-height-gap: calc((var(--button-content-height) - var(--button-based-font-size)) / 2);
+  --button-padding-block: calc(var(--button-base-unit) - var(--button-line-height-gap));
+
+  border: 1px solid;
+  border-radius: 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: var(--button-padding-block) 3rem;
+  font-family: inherit;
+  font-size: var(--button-based-font-size);
+  line-height: var(--button-line-height);
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: inherit;
+}
+
+.button:hover {
+  box-shadow: 2px 2px 2px #bdbdbd;
+}
+
+/* This is for the style for all the blue buttons */
+.button__primary {
+  background-color: #00B2D8;
+  color: #fff;
+}
+.button__primary:hover {
+  background-color: #a2dbe7;
+  color: black;
+}
+
+/* This is for all white buttons */
+.button__secondary {
+  background-color: #fff;
+  color: #0083C3;
+}
+.button__secondary:hover {
+  background-color: rgba(255, 0, 0, 0.904);
+  color: black;
+}
+
+/* This is for all ghost buttons */
+.button__tertiary {
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+.button__tertiary:hover {
+  background-color: rgba(255, 251, 0, 0.8);
+  color: black;
+}
+
+/* This is a style for the most important button among all, the green one */
+.button__complete {
+  background-color: #7ED321;
+  color: #fff;
+  padding: 1rem 5rem;
+}
+.button__complete:hover {
+  background-color: #bdee88;
+}
