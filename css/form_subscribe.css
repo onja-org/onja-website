@@ -1,6 +1,6 @@
 /* Form style */
 
-.form-subscribe {
+.form_subscribe__form {
   padding-top: 2rem;
   padding-bottom: 2rem;
   color: #FFFFFF;
@@ -10,29 +10,29 @@
   padding-right: 2rem;
 }
 
-.form-title {
+.form_subscribe-title {
   font-weight: 300;
 }
 
-.form-wrapper {
+.form_subscribe__form--wrapper {
   border-block-end: 1px solid #FFFFFF;
   max-width: 250px;
   margin-bottom: 1rem;
 }
 
-.form-group {
+.form_subscribe__form--group {
   position: relative;
   padding: 0;
   border: none;
 }
 
-.user-email {
+.form_subscribe__user--email {
   position: absolute;
   top: 0%;
   transition: top .1s ease-in;
 }
 
-.user-input {
+.form_subscribe__user--input {
   background-color: transparent;
   color: #FFFFFF;
   border: none;
@@ -40,7 +40,7 @@
 
 /* When the label is focused, the input appears */
 
-.form-subscribe:focus-within .user-email {
+.form_subscribe__form:focus-within .form_subscribe__user--email {
   position: absolute;
   top: -50%;
   border: none;
@@ -50,7 +50,7 @@
 /* For a screen bigger than 400px. */
 
 @media (min-width: 400px) {
-  .form-subscribe {
+  .form_subscribe__form {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -61,11 +61,11 @@
     padding-left: 0;
     padding-right: 0;
   }
-  .user-input {
+  .form_subscribe__user--input {
     min-width: 200px;
   }
 
-  .form-wrapper {
+  .form_subscribe__form--wrapper {
     margin-bottom: 0;
   }
 }
@@ -74,7 +74,7 @@
 
 /* Any other variations of this pattern */
 
- .form-subscribe2 {
+ .form_subscribe__second-example__form {
   padding-top: 2rem;
   padding-bottom: 2rem;
   color: #FFFFFF;
@@ -85,43 +85,43 @@
   padding-right: 2rem;
 }
 
- .form-title2 {
+ .form_subscribe__second-example__form-title {
   font-weight: 300;
 }
 
- .form-wrapper2 {
+ .form_subscribe__second-example__form--wrapper {
   border-block-end: 1px solid #FFFFFF;
   max-width: 250px;
   margin-bottom: 1rem;
 }
 
- .form-group2 {
+ .form_subscribe__second-example__form--group {
   position: relative;
   padding: 0;
   border: none;
 }
 
- .form-subscribe2:focus-within .user-email2 {
+ .form_subscribe__second-example__form:focus-within .form_subscribe__second-example__user--email {
   position: absolute;
   top: -50%;
   border: none;
   transition: top .1s ease-in;
 }
 
- .user-email2 {
+ .form_subscribe__second-example__user--email {
   position: absolute;
   top: 0%;
   transition: top .1s ease-in;
 }
 
- .user-input2 {
+ .form_subscribe__second-example__user--input {
   background-color: transparent;
   color: #FFFFFF;
   border: none;
 }
 
 @media (min-width: 400px) {
-   .form-subscribe2 {
+   .form_subscribe__second-example__form {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -132,17 +132,17 @@
     padding-left: 0;
     padding-right: 0;
   }
-   .user-input2 {
+   .form_subscribe__second-example__user--input {
     min-width: 200px;
   }
 
-   .form-wrapper2 {
+   .form_subscribe__second-example__form--wrapper {
     margin-bottom: 0;
   }
 }
 
 /* Add test cases of this pattern, like wrapping text, overflowing content, and tight spaces  */
- .form-subscribe3 {
+ .form_subscribe__third-example__form {
   padding-top: 2rem;
   padding-bottom: 2rem;
   color: #FFFFFF;
@@ -153,43 +153,43 @@
   padding-right: 2rem;
 }
 
- .form-title3 {
+ .form_subscribe__third-example__form-title {
   font-weight: 300;
 }
 
- .form-wrapper3 {
+ .form_subscribe__third-example__form--wrapper {
   border-block-end: 1px solid #FFFFFF;
   max-width: 250px;
   margin-bottom: 1rem;
 }
 
- .form-group3 {
+ .form_subscribe__third-example__form--group {
   position: relative;
   padding: 0;
   border: none;
 }
 
- .form-subscribe3:focus-within .user-email3 {
+ .form_subscribe__third-example__form:focus-within .form_subscribe__third-example__user--email {
   position: absolute;
   top: -50%;
   border: none;
   transition: top .1s ease-in;
 }
 
- .user-email3 {
+ .form_subscribe__third-example__user--email {
   position: absolute;
   top: 0%;
   transition: top .1s ease-in;
 }
 
- .user-input3 {
+ .form_subscribe__third-example__user--input {
   background-color: transparent;
   color: #FFFFFF;
   border: none;
 }
 
 @media (min-width: 400px) {
-   .form-subscribe3 {
+   .form_subscribe__third-example__form {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -200,18 +200,18 @@
     padding-left: 0;
     padding-right: 0;
   }
-   .user-input3 {
+   .form_subscribe__third-example__user--input {
     min-width: 200px;
   }
 
-   .form-wrapper3 {
+   .form_subscribe__third-example__form--wrapper {
     margin-bottom: 0;
   }
 }
 
 
 
-.form-subscribe4 {
+.form_subscribe__fourth-example__form {
   padding-top: 2rem;
   padding-bottom: 2rem;
   color: #FFFFFF;
@@ -222,43 +222,43 @@
   padding-right: 2rem;
 }
 
-.form-title4 {
+.form_subscribe__fourth-example-title {
   font-weight: 300;
 }
 
-.form-wrapper4 {
+.form_subscribe__fourth-example__form--wrapper {
   border-block-end: 1px solid #FFFFFF;
   max-width: 250px;
   margin-bottom: 1rem;
 }
 
-.form-group4 {
+.form_subscribe__fourth-example__form--group{
   position: relative;
   padding: 0;
   border: none;
 }
 
-.form-subscribe4:focus-within .user-email4 {
+.form_subscribe__fourth-example__form:focus-within .form_subscribe__fourth-example__user--email {
   position: absolute;
   top: -50%;
   border: none;
   transition: top .1s ease-in;
 }
 
-.user-email4 {
+.form_subscribe__fourth-example__user--email {
   position: absolute;
   top: 0%;
   transition: top .1s ease-in;
 }
 
-.user-input4 {
+.form_subscribe__fourth-example__user--input {
   background-color: transparent;
   color: #FFFFFF;
   border: none;
 }
 
 @media (min-width: 400px) {
-  .form-subscribe4 {
+  .form_subscribe__fourth-example__form {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -269,23 +269,11 @@
     padding-left: 0;
     padding-right: 0;
   }
-  .user-input4 {
+  .form_subscribe__fourth-example__user--input {
     min-width: 200px;
   }
 
-  .form-wrapper4 {
+  .form_subscribe__fourth-example__form--wrapper {
     margin-bottom: 0;
   }
-}
-
-.normal,
-.first-example,
-.second-example,
-.third-example,
-.fourth-example {
-  text-align: center;
-}
-
-.form-title {
-  text-align: start;
 }
