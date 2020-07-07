@@ -1,5 +1,7 @@
 /* Set sensible defaults */
 @import "defaults.css";
+@import "card-goal.css";
+@import "card-goal-edge.css";
 @import "contact_form.css";
 @import "share.css";
 @import "nav-pagination.css";
