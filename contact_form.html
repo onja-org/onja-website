@@ -1,80 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/index.css">
   <title>Onja's website</title>
 </head>
-
 <body>
-  <section class="form-contact_contact-section">
-    <header class="form-contact_contact-header">
-      <h2 class="form-contact_contact-heading">
+  <section class="form_contact__section">
+    <header class="form_contact__header">
+      <h2 class="form_contact__heading">
         Contact form
       </h2>
     </header>
-    <form class="form-contact_contact-form" action="/contact-form" method="POST" id="contact_form">
-      <fieldset class="form-contact_contact-field" id="fieldset_fullname">
-        <label class="form-contact_contact-label" for="fullname" id="fullname_label">Fullname</label><br>
-        <input type="text" class="form-contact_user_input"id="fullname" required>
+    <form class="form_contact" action="/contact-form" method="POST" id="contact_form">
+      <fieldset class="form_contact__fieldset" id="fieldset_fullname">
+        <label class="form_contact__label" for="fullname" id="fullname_label">Fullname</label><br>
+        <input type="text" class="form_contact__input form_contact__input--fullname" id="fullname" required>
       </fieldset>
-      <fieldset class="form-contact_contact-field" id="fieldset_subject">
-        <label class="form-contact_contact-label" for="subject" id="subject_label">Subject</label><br>
-        <input type="text" class="form-contact_user_input" id="subject" required>
+      <fieldset class="form_contact__fieldset" id="fieldset_subject">
+        <label class="form_contact__label" for="subject" id="subject_label">Subject</label><br>
+        <input type="text" class="form_contact__input form_contact__input--subject" id="subject" required>
       </fieldset>
-      <fieldset class="form-contact_contact-field" id="fieldset_email">
-        <label class="form-contact_contact-label" for="email" id="email_label">Email</label><br>
-        <input type="email" class="form-contact_user_input" id="email" name="emails" required>
+      <fieldset class="form_contact__fieldset" id="fieldset_email">
+        <label class="form_contact__label" for="email" id="email_label">Email</label><br>
+        <input type="email" class="form_contact__input form_contact__input--email" id="email" name="email" required>
       </fieldset>
-      <fieldset class="form-contact_contact-field" id="fieldset_phone-number">
-        <label class="form-contact_contact-label" for="phone-number" id="phone_number-label">Phone</label><br>
-        <input type="tel" class="form-contact_user_input" id="phone-number" name="phone" required>
+      <fieldset class="form_contact__fieldset" id="fieldset_phone-number">
+        <label class="form_contact__label" for="phone-number" id="phone_number-label">Phone</label><br>
+        <input type="tel" class="form_contact__input form_contact__input--number" id="phone-number" name="phone" required>
       </fieldset>
-      <fieldset class="form-contact_contact-field" id="fieldset_message">
-        <label class="form-contact_contact-label" for="message" id="message_label">Message</label><br>
-        <textarea id="message" cols="25" rows="5"></textarea>
+      <fieldset class="form_contact__fieldset form_contact__fieldset--message" id="fieldset_message">
+        <label class="form_contact__label" for="message" id="message_label">Message</label><br>
+        <textarea class="form_contact__textarea" id="message" cols="25" rows="5"></textarea>
       </fieldset>
-      <button type="submit" name="button-form" class ="button button__primary" id="submit-button">Send</button>
+      <button type="submit" name="button-form" class="button button__primary button__primary--button-send" id="submit-button">Send</button>
     </form>
   </section>
-
-  <section class="form-contact_contact-section">
-    <header class="form-contact_contact-header">
-      <h2 class="form-contact_contact-heading">
+  <section class="form_contact__section">
+    <header class="form_contact__header">
+      <h2 class="form_contact__heading">
         Contact form
       </h2>
     </header>
-    <form class="form-contact_contact-form" action="/contact-form" method="POST" id="contact_form">
-      <fieldset class="form-contact_contact-field" id="fieldset_fullname">
-        <label class="form-contact_contact-label" for="fullname" id="fullname_label">Fullname</label><br>
-        <input type="text" class="form-contact_user_input"id="fullname" value="You lift my spirits when I feel down, you form-contacts the joy with me when I’m over the moon, you are with me in good and bad times and you are a reminder of how wonderful our life is." required>
+    <form class="form_contact" action="/contact-form" method="POST" id="contact_form">
+      <fieldset class="form_contact__fieldset" id="fieldset_fullname">
+        <label class="form_contact__label" for="fullname" id="fullname_label">Fullname</label><br>
+        <input type="text" class="form_contact__input form_contact__input--fullname" id="fullname" value="You lift my spirits when I feel down, you form_contact_s the joy with me when I'm over the moon, you are with me in good and bad times and you are a reminder of how wonderful our life is." required>
       </fieldset>
-      <fieldset class="form-contact_contact-field" id="fieldset_subject">
-        <label class="share_contact-label" for="subject" id="subject_label">Subject</label><br>
-        <input type="text" class="form-contact_user_input" id="subject" value="You lift my spirits when I feel down, you shares the joy with me when I’m over the moon, you are with me in good and bad times and you are a reminder of how wonderful our life is." required>
+      <fieldset class="form_contact__fieldset" id="fieldset_subject">
+        <label class="form_contact__label" for="subject" id="subject_label">Subject</label><br>
+        <input type="text" class="form_contact__input form_contact__input--subject" id="subject" value="You lift my spirits when I feel down, you form_contact_s the joy with me when I'm over the moon, you are with me in good and bad times and you are a reminder of how wonderful our life is." required>
       </fieldset>
-      <fieldset class="form-contact_contact-field" id="fieldset_email">
-        <label class="form-contact_contact-label" for="email" id="email_label">Email</label><br>
-        <input type="email" class="form-contact_user_input" id="email" name="emails" value="You lift my spirits when I feel down, you form-contacts the joy with me when I’m over the moon, you are with me in good and bad times and you are a reminder of how wonderful our life is." required>
+      <fieldset class="form_contact__fieldset" id="fieldset_email">
+        <label class="form_contact__label" for="email" id="email_label">Email</label><br>
+        <input type="email" class="form_contact__input form_contact__input--email" id="email" name="email" value="You lift my spirits when I feel down, you form_contact_s the joy with me when I'm over the moon, you are with me in good and bad times and you are a reminder of how wonderful our life is." required>
       </fieldset>
-      <fieldset class="form-contact_contact-field" id="fieldset_phone-number">
-        <label class="form-contact_contact-label" for="phone-number" id="phone_number-label">Phone</label><br>
-        <input type="tel" class="form-contact_user_input" id="phone-number" name="phone" value="You lift my spirits when I feel down, you form-contacts the joy with me when I’m over the moon, you are with me in good and bad times and you are a reminder of how wonderful our life is." required>
+      <fieldset class="form_contact__fieldset" id="fieldset_phone-number">
+        <label class="form_contact__label" for="phone-number" id="phone_number-label">Phone</label><br>
+        <input type="tel" class="form_contact__input form_contact__input--number" id="phone-number" name="phone" value="You lift my spirits when I feel down, you form_contact_s the joy with me when I'm over the moon, you are with me in good and bad times and you are a reminder of how wonderful our life is." required>
       </fieldset>
-      <fieldset class="form-contact_contact-field" id="fieldset_message">
-        <label class="share_contact-label" for="message" id="message_label">Message</label><br>
-        <textarea id="message" cols="25" rows="5">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-Unde, ratione ex earum laudantium illum in quae tempore debitis, perferendis aliquam quo laborum porro corporis rerum possimus quia, fugit totam sint?
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta esse atque incidunt illo in ad? Tenetur similique ut ipsa cum nihil hic doloribus non dolorem, exercitationem illo voluptatibus modi expedita.
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, doloribus vero nam dolorem corporis doloremque voluptate, voluptates hic impedit ut nisi repellat consequatur sapiente, est reprehenderit temporibus. Quibusdam, neque magnam.
-      </textarea>
+      <fieldset class="form_contact__fieldset form_contact__fieldset--message" id="fieldset_message">
+        <label class="form_contact__label" for="message" id="message_label">Message</label><br>
+        <textarea class="form_contact__textarea" id="message" cols="25" rows="5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, alias! Deleniti veniam corrupti rem commodi aut, consequatur enim dolore nam earum voluptatum quibusdam eum, ipsa inventore? Culpa consequatur id pariatur! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, blanditiis aliquam, corporis pariatur doloribus inventore tempore soluta ea reiciendis laboriosam sint est culpa animi earum necessitatibus dolorum quas odio illum. </textarea>
       </fieldset>
-      <button type="submit" name="button-form" class ="button button__primary" id="submit-button">Send</button>
+      <button type="submit" name="button-form" class="button button__primary button__primary--button-send" id="submit-button">Send</button>
     </form>
   </section>
-
 </body>
-
 </html>
