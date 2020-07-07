@@ -1,0 +1,103 @@
+:root {
+  --padding-tabe-anchor: 0.5rem;
+  --padding-vertical-buttons: 0.5rem;
+  --padding-horizontal-buttons: 1rem;
+  --margin-for-the-anchor: 0.5rem;
+  --text-font-size: 14px;
+  --number-font-size: 12px;
+  --button-width: 46.5px;
+  --base-height: 21.5px;
+  --anchor-width: 21px;
+}
+
+.nav_pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nav_pagination_list {
+  list-style: none;
+}
+
+.nav_pagination_list a {
+  list-style: none;
+  padding-left: var(--padding-tabe-anchor);
+  padding-right: var(--padding-tabe-anchor);
+  padding-top: var(--padding-tabe-anchor);
+  padding-bottom: var(--padding-tabe-anchor);
+  font-size: var(--number-font-size);
+  border: 1px solid #C8D1DA;
+  border-radius: 50%;
+  margin-left: var(--margin-for-the-anchor);
+  margin-right: var(--margin-for-the-anchor);
+  text-align: center;
+  justify-content: center;
+  width: var(--anchor-width);
+  height: var(--base-height);
+  font-weight: bold;
+  color: darkgray;
+}
+
+.nav_pagination_disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.25;
+  background-color: lightgray;
+}
+
+.nav_pagination__anchor {
+  text-decoration: none;
+  line-height: var(--base-height);
+  display: block;
+}
+
+.nav_pagination_buttons a {
+  padding-top: var(--padding-vertical-buttons);
+  padding-bottom: var(--padding-vertical-buttons);
+  padding-left: var(--padding-horizontal-buttons);
+  padding-right: var(--padding-horizontal-buttons);
+  border: 1px solid #C8D1DA;
+  border-radius: 10rem;
+  width: var(--button-width);
+  height: var(--base-height);
+  text-align: center;
+  font-weight: bold;
+  color: blue;
+  font-size: var(--text-font-size);
+  line-height: var(--base-height);
+}
+
+.ally {
+  display: none;
+}
+
+.nav_pagination__container {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.nav_pagination_current__page {
+  background-color: #0083C3;
+}
+
+.nav_pagination_list a.nav_pagination_current__page {
+  color: white;
+}
+
+@media (min-width: 700px) {
+  :root {
+    --padding-tabe-anchor: 1rem;
+    --padding-vertical-buttons: 1rem;
+    --padding-horizontal-buttons: 2rem;
+    --margin-for-the-anchor: 1rem;
+    --text-font-size: 28px;
+    --number-font-size:24px;
+    --button-width: 93px;
+    --base-height: 43px;
+    --anchor-width: 42px;
+  }
+}
