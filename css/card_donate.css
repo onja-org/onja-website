@@ -2,11 +2,7 @@
   --image_width: 100%;
 }
 
-body {
-  background-color: #f2f2f2;
-}
-
-article {
+.card-donate {
   background-color: white;
   font-family: 'MaisonNeue', Arial, Helvetica, sans-serif;
   border: #cbd1da solid 2px;
