@@ -25,11 +25,7 @@
 }
 
 .form_contact__input:focus,
-<<<<<<< HEAD
 .form_contact__textarea:focus {
-=======
-#message:focus {
->>>>>>> feature/form_contact
   outline: none;
 }
 
