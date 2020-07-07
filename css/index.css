@@ -2,6 +2,8 @@
 @import "defaults.css";
 @import "contact_form.css";
 @import "share.css";
-
+@import "nav-pagination.css";
+@import "masthead.css";
+/*feature/masthead*/
 /* Add pattern CSS here: */
-/* @import "PATTERN_NAME.css"; */
+@import "form_subscribe.css";
