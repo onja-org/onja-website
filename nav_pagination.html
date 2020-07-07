@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pattern: Nav pagination</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <section class="nav_pagination__section">
+    <header>
+      <h2 class="nav_pagination__heading">First test case</h2>
+    </header>
+    <p class="nav_pagination__description">
+      In this first section, we simulate the page as the user is in the first page of the list of students and we
+      disable the previuos button.
+    </p>
+    <nav class="nav_pagination__navigation">
+      <p class="nav_pagination__buttons">
+        <a rel="prev" class="nav_pagination__anchor nav_pagination__button--disabled" href="/back">Back</a>
+      </p>
+      <ul class="nav_pagination__container">
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor nav_pagination__current--page"
+            href="/first-page"><span class="nav_pagination__span--ally"> Page number1</span>1</a></li>
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/second-page"><span
+              class="nav_pagination__span--ally">Page
+              number2</span>2</a></li>
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/third-page"><span
+              class="nav_pagination__span--ally">Page
+              number3</span>3</a></li>
+      </ul>
+      <p class="nav_pagination__buttons">
+        <a rel="next" class="nav_pagination__anchor" href="/next">Next</a>
+      </p>
+    </nav>
+  </section>
+  <section class="nav_pagination__section">
+    <header>
+      <h2 class="nav_pagination__heading">Second test case</h2>
+    </header>
+    <p class="nav_pagination__description">
+      Then, we test the page as if the user is looking at the second page and the previous and the next buttons are both
+      available.
+    </p>
+    <nav class="nav_pagination__navigation">
+      <p class="nav_pagination__buttons">
+        <a rel="prev" class="nav_pagination__anchor" href="/back">Back</a>
+      </p>
+      <ul class="nav_pagination__container">
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/first-page"><span
+              class="nav_pagination__span--ally">Page
+              number1</span>1</a></li>
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor nav_pagination__current--page"
+            href="/second-page"><span class="nav_pagination__span--ally">Page number2</span>2</a></li>
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/third-page"><span
+              class="nav_pagination__span--ally">Page
+              number3</span>3</a></li>
+      </ul>
+      <p class="nav_pagination__buttons">
+        <a rel="next" class="nav_pagination__anchor" href="/next">Next</a>
+      </p>
+    </nav>
+  </section>
+  <section class="nav_pagination__section">
+    <header>
+      <h2 class="nav_pagination__heading">Third test case</h2>
+    </header>
+    <p class="nav_pagination__description">
+      We also do the same thing here to set the page as if the user is looking at the third page, in this case the next
+      button is disabled which shows that it's the last page.
+    </p>
+    <nav class="nav_pagination__navigation">
+      <p class="nav_pagination__buttons">
+        <a rel="prev" class="nav_pagination__anchor" href="/back">Back</a>
+      </p>
+      <ul class="nav_pagination__container">
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/first-page"><span
+              class="nav_pagination__span--ally">Page
+              number1</span>1</a></li>
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/second-page"><span
+              class="nav_pagination__span--ally">Page
+              number2</span>2</a></li>
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor nav_pagination__current--page"
+            href="/third-page"><span class="nav_pagination__span--ally">Page number3</span>3</a></li>
+      </ul>
+      <p class="nav_pagination__buttons">
+        <a rel="next" class="nav_pagination__anchor nav_pagination__button--disabled" href="/next">Next</a>
+      </p>
+    </nav>
+  </section>
+  <section class="nav_pagination__section">
+    <header>
+      <h2 class="nav_pagination__heading">Fourth test case</h2>
+    </header>
+    <p class="nav_pagination__description">
+      And now we need to check if the buttons are wrapping very well when there are a lot of them.
+    </p>
+    <nav class="nav_pagination__navigation">
+      <p class="nav_pagination__buttons">
+        <a rel="prev" class="nav_pagination__anchor" href="/back">Back</a>
+      </p>
+      <ul class="nav_pagination__container">
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/page1"><span
+              class="nav_pagination__span--ally">Page number1
+            </span>1</a></li>
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/page2"><span
+              class="nav_pagination__span--ally">Page
+              number2</span>2</a></li>
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/page3"><span
+              class="nav_pagination__span--ally">Page
+              number3</span>3</a></li>
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/page4"><span
+              class="nav_pagination__span--ally">Page
+              number4</span>4</a></li>
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/page5"><span
+              class="nav_pagination__span--ally">Fith Page
+              number5</span>5</a></li>
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/page6"><span
+              class="nav_pagination__span--ally">Page
+              number6</span>6</a></li>
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/page7"><span
+              class="nav_pagination__span--ally">Page
+              number7</span>7</a></li>
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/page8"><span
+              class="nav_pagination__span--ally">Page
+              number8</span>8</a></li>
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/page9"><span
+              class="nav_pagination__span--ally">Page
+              number9</span>9</a></li>
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/page10"><span
+              class="nav_pagination__span--ally">Page
+              number10</span>10</a></li>
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/page11"><span
+              class="nav_pagination__span--ally">Page
+              number11</span>11</a></li>
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/page12"><span
+              class="nav_pagination__span--ally">Page
+              number12</span>12</a></li>
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/page13"><span
+              class="nav_pagination__span--ally">Page
+              number13</span>13</a></li>
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/page14"><span
+              class="nav_pagination__span--ally">Page
+              number14</span>14</a></li>
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/page15"><span
+              class="nav_pagination__span--ally">Page
+              number15</span>15</a></li>
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/page16"><span
+              class="nav_pagination__span--ally">Page
+              number16</span>16</a></li>
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/page17"><span
+              class="nav_pagination__span--ally">Page
+              number17</span>17</a></li>
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/page18"><span
+              class="nav_pagination__span--ally">Page
+              number18</span>18</a></li>
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/page19"><span
+              class="nav_pagination__span--ally">Page
+              number19</span>19</a></li>
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/page20"><span
+              class="nav_pagination__span--ally">Page
+              number20</span>20</a></li>
+      </ul>
+      <p class="nav_pagination__buttons">
+        <a rel="next" class="nav_pagination__anchor" href="/next">Next</a>
+      </p>
+    </nav>
+  </section>
+  <section class="nav_pagination__section">
+    <header>
+      <h2 class="nav_pagination__heading">Last test case</h2>
+    </header>
+    <p class="nav_pagination__description">
+      Lastly, for us to make sure that every number between 1 to 1000 can be able to fit in each button. To that end, we
+      will try to set the page number200 is the current page.
+    </p>
+    <nav class="nav_pagination__navigation">
+      <p class="nav_pagination__buttons">
+        <a rel="prev" class="nav_pagination__anchor" href="/back">Back</a>
+      </p>
+      <ul class="nav_pagination__container">
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/page199"><span
+              class="nav_pagination__span--ally">First Page
+              number</span>199</a></li>
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor nav_pagination__current--page"
+            href="/page200"><span class="nav_pagination__span--ally">Second Page number</span>200</a></li>
+        <li class="nav_pagination__list"><a class="nav_pagination__anchor" href="/page201"><span
+              class="nav_pagination__span--ally">Third Page
+              number</span>201</a></li>
+      </ul>
+      <p class="nav_pagination__buttons">
+        <a rel="next" class="nav_pagination__anchor" href="/next">Next</a>
+      </p>
+    </nav>
+  </section>
+</body>
+
+</html>
