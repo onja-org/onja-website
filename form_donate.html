@@ -10,10 +10,10 @@
 
 <body>
   <form class="form_donate" action="/donate" method="POST">
-    <fieldset>
-      <div class="form">
+    <fieldset class="form_donate_fieldset">
+      <div class="form_donate_form">
         <div class="form_row">
-          <label class="label" for="donation_amount">Enter amount</label>
+          <label class="form_donate_label" for="donation_amount">Enter amount</label>
           <input type="number" name="amount" id="donation_amount">
         </div>
         <div class="button button__primary">
@@ -23,16 +23,16 @@
     </fieldset>
     <div class="checkbox_monthly">
       <input type="checkbox" id="donate_checkbox">
-      <label class="label" for="donate_checkbox">Monthly donation</label>
+      <label class="form_donate_label" for="donate_checkbox">Monthly donation</label>
     </div>
   </form>
 
 
   <form class="form_donate" action="/donate" method="POST">
-    <fieldset class="field">
-      <div class="form">
+    <fieldset class="form_donate_field form_donate_fieldset">
+      <div class="form_donate_form">
         <div class="row_form">
-          <label class="label1 label" for="donation_amount">Lorem ipsum dolor sit amet consectetur</label>
+          <label class="label1 form_donate_label" for="donation_amount">Lorem ipsum dolor sit amet consectetur</label>
           <input type="number" class="input_number" name="amount" id="donation_number">
         </div>
         <div class="button-1 button__primary">
@@ -42,7 +42,7 @@
     </fieldset>
     <div class="checkbox_monthly">
       <input type="checkbox" id="donate_checkbox">
-      <label class="label" for="donate_checkbox">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</label>
+      <label class="form_donate_label" for="donate_checkbox">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</label>
     </div>
   </form>
 
