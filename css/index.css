@@ -7,6 +7,7 @@
 @import "nav-pagination.css";
 @import "masthead.css";
 /*feature/masthead*/
+@import "nav_pagination.css";
 @import "card_goal.css";
 /* Add pattern CSS here: */
 @import "form_subscribe.css";
