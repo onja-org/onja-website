@@ -10,7 +10,10 @@
   border-radius: 1.5rem;
   text-decoration: none;
   text-transform: uppercase;
-  padding: var(--button-padding-block) 3rem;
+  padding-top: var(--button-padding-block);
+  padding-bottom: var(--button-padding-block);
+  padding-right: 3rem;
+  padding-left: 3rem;
   font-family: inherit;
   font-size: var(--button-based-font-size);
   line-height: var(--button-line-height);
@@ -59,7 +62,10 @@
 .button__complete {
   background-color: #7ED321;
   color: #fff;
-  padding: 1rem 5rem;
+  padding-top: var(--button-padding-block);
+  padding-bottom: var(--button-padding-block);
+  padding-right: 5rem;
+  padding-left: 5rem;
 }
 .button__complete:hover {
   background-color: #bdee88;
