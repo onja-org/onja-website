@@ -4,7 +4,7 @@
   margin-inline-start: 2rem;
   }
 
-.form {
+.form_donate_form {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -13,7 +13,7 @@
   margin-inline-start: 2rem;
 }
 
-fieldset {
+.form_donate_fieldset {
   border-radius: 5rem;
   height: 67px;
   border: 1px solid lightgray;
@@ -21,7 +21,7 @@ fieldset {
   z-index: 1;
 }
 
-.label {
+.form_donate_label {
   color: blue;
   text-transform: uppercase;
   font-size: medium;
@@ -80,15 +80,13 @@ input[type="number"] {
 }
 
 @media(max-width: 378px) {
-  .form {
+  .form_donate_form{
     display: flex;
     flex-direction: column;
     position: relative;
     flex-wrap: wrap;
   }
-  .button {
-    padding-top: 1rem;
-  }
+
   .checkbox_monthly {
     left: 10%;
     margin-block-start: 1rem;
@@ -96,7 +94,7 @@ input[type="number"] {
 }
 
 /* Testing */
-.field {
+.form_donate_field {
   background-color: lightgray;
 }
 
