@@ -1,0 +1,291 @@
+/* Form style */
+
+.form-subscribe {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #FFFFFF;
+  background-color: #0083C3;
+  padding-left: 2rem;
+  width: 100%;
+  padding-right: 2rem;
+}
+
+.form-title {
+  font-weight: 300;
+}
+
+.form-wrapper {
+  border-block-end: 1px solid #FFFFFF;
+  max-width: 250px;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  position: relative;
+  padding: 0;
+  border: none;
+}
+
+.user-email {
+  position: absolute;
+  top: 0%;
+  transition: top .1s ease-in;
+}
+
+.user-input {
+  background-color: transparent;
+  color: #FFFFFF;
+  border: none;
+}
+
+/* When the label is focused, the input appears */
+
+.form-subscribe:focus-within label {
+  position: absolute;
+  top: -50%;
+  border: none;
+  transition: top .1s ease-in;
+}
+
+/* For a screen bigger than 400px. */
+
+@media (min-width: 400px) {
+  .form-subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFFFFF;
+    background-color: #0083C3;
+    line-height: 36px;
+    font-size: 22px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .user-input {
+    min-width: 200px;
+  }
+
+  .form-wrapper {
+    margin-bottom: 0;
+  }
+}
+
+
+
+/* Any other variations of this pattern */
+
+ .form-subscribe2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #FFFFFF;
+  background-color: #0083C3;
+  line-height: 36px;
+  padding-left: 2rem;
+  width: 100%;
+  padding-right: 2rem;
+}
+
+ .form-title2 {
+  font-weight: 300;
+}
+
+ .form-wrapper2 {
+  border-block-end: 1px solid #FFFFFF;
+  max-width: 250px;
+  margin-bottom: 1rem;
+}
+
+ .form-group2 {
+  position: relative;
+  padding: 0;
+  border: none;
+}
+
+ .form-subscribe2:focus-within .user-email2 {
+  position: absolute;
+  top: -50%;
+  border: none;
+  transition: top .1s ease-in;
+}
+
+ .user-email2 {
+  position: absolute;
+  top: 0%;
+  transition: top .1s ease-in;
+}
+
+ .user-input2 {
+  background-color: transparent;
+  color: #FFFFFF;
+  border: none;
+}
+
+@media (min-width: 400px) {
+   .form-subscribe2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFFFFF;
+    background-color: #0083C3;
+    line-height: 36px;
+    font-size: 22px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+   .user-input2 {
+    min-width: 200px;
+  }
+
+   .form-wrapper2 {
+    margin-bottom: 0;
+  }
+}
+
+/* Add test cases of this pattern, like wrapping text, overflowing content, and tight spaces  */
+ .form-subscribe3 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #FFFFFF;
+  background-color: #0083C3;
+  line-height: 36px;
+  padding-left: 2rem;
+  width: 100%;
+  padding-right: 2rem;
+}
+
+ .form-title3 {
+  font-weight: 300;
+}
+
+ .form-wrapper3 {
+  border-block-end: 1px solid #FFFFFF;
+  max-width: 250px;
+  margin-bottom: 1rem;
+}
+
+ .form-group3 {
+  position: relative;
+  padding: 0;
+  border: none;
+}
+
+ .form-subscribe3:focus-within .user-email3 {
+  position: absolute;
+  top: -50%;
+  border: none;
+  transition: top .1s ease-in;
+}
+
+ .user-email3 {
+  position: absolute;
+  top: 0%;
+  transition: top .1s ease-in;
+}
+
+ .user-input3 {
+  background-color: transparent;
+  color: #FFFFFF;
+  border: none;
+}
+
+@media (min-width: 400px) {
+   .form-subscribe3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFFFFF;
+    background-color: #0083C3;
+    line-height: 36px;
+    font-size: 22px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+   .user-input3 {
+    min-width: 200px;
+  }
+
+   .form-wrapper3 {
+    margin-bottom: 0;
+  }
+}
+
+
+
+.form-subscribe4 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #FFFFFF;
+  background-color: red;
+  line-height: 36px;
+  padding-left: 2rem;
+  width: 100%;
+  padding-right: 2rem;
+}
+
+.form-title4 {
+  font-weight: 300;
+}
+
+.form-wrapper4 {
+  border-block-end: 1px solid #FFFFFF;
+  max-width: 250px;
+  margin-bottom: 1rem;
+}
+
+.form-group4 {
+  position: relative;
+  padding: 0;
+  border: none;
+}
+
+.form-subscribe4:focus-within .user-email4 {
+  position: absolute;
+  top: -50%;
+  border: none;
+  transition: top .1s ease-in;
+}
+
+.user-email4 {
+  position: absolute;
+  top: 0%;
+  transition: top .1s ease-in;
+}
+
+.user-input4 {
+  background-color: transparent;
+  color: #FFFFFF;
+  border: none;
+}
+
+@media (min-width: 400px) {
+  .form-subscribe4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFFFFF;
+    background-color: red;
+    line-height: 36px;
+    font-size: 22px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .user-input4 {
+    min-width: 200px;
+  }
+
+  .form-wrapper4 {
+    margin-bottom: 0;
+  }
+}
+
+.normal,
+.first-example,
+.second-example,
+.third-example,
+.fourth-example {
+  text-align: center;
+}
+
+.form-title {
+  text-align: start;
+}
