@@ -1,6 +1,7 @@
 /* Set sensible defaults */
 @import "defaults.css";
 @import "contact_form.css";
+@import "share.css";
 
 /* Add pattern CSS here: */
 /* @import "PATTERN_NAME.css"; */
