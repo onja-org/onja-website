@@ -10,7 +10,7 @@
 
 We'll be working in feature branches.
 
-Create a new branch called: `feature/masthead`.
+Create a new branch called: `feature/PATTERN_NAME`.
 
 Those feature branches can only be merged via a pull-request once approval has been met. All feature branches will spawn off our Github Issues.
 
